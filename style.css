@@ -1,0 +1,836 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.trends .img1 img {
+    width: 550px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 17px;
+}
+
+.trends .img2 img {
+    width: 550px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.trends {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trends .img1 .top-left {
+    position: absolute;
+    top: 570px;
+    left: 26px;
+    margin-left: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.trends .img1 .top-left img {
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    border: 1px solid white;
+}
+
+.trends .img2 .top-left {
+    position: absolute;
+    top: 570px;
+    left: 26px;
+    margin-left: 610px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.trends .img2 .top-left img {
+    width: 30px;
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid white;
+}
+
+.row1 .column1 img {
+    width: 358px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 17px;
+
+}
+
+.row1 .column2 img {
+    width: 370px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.row1 .column3 img {
+    width: 358px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 1px;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.row1 .column1 .top1 {
+    position: absolute;
+    top: 830px;
+    left: 0px;
+    margin-left: 65px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.row1 .column1 .top1 img {
+    width: 30px;
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid white;
+}
+
+.row1 .column2 .top2 {
+    position: absolute;
+    top: 830px;
+    left: 0px;
+    margin-left: 438px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    text-shadow: rgb(12, 12, 12) 1px 0 20px;
+}
+
+.row1 .column2 .top2 img {
+    width: 30px;
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid white;
+}
+
+.row1 .column3 .top3 {
+    position: absolute;
+    top: 830px;
+    left: 0px;
+    margin-left: 825px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.row1 .column3 .top3 img {
+    width: 30px;
+    height: 20px;
+    margin-left: 1px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid white;
+}
+
+.trend h3 {
+    font-weight: bold;
+}
+
+/* top place */
+
+.topplaces h3 {
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+
+/*scroll horizontal */
+
+.wrapper {
+    max-height: 500px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper .item {
+    min-width: 290px;
+    height: 235px;
+    line-height: 110px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.wrapper .item img {
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* horizontal scrolling text */
+.wrapper .item h5 {
+    /* margin-bottom: 5px; */
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+/* Explore your favourite places */
+.explore h3 {
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 1px;
+}
+
+.explore p {
+    margin-left: 45px;
+}
+
+/* horizontal scrolling new */
+
+.wrappernew {
+    max-height: 500px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.wrappernew::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrappernew .item1 {
+    min-width: 170px;
+    height: 180px;
+    /* line-height: 110px; */
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+.wrappernew .item1 img {
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+/* horizontal scrolling text */
+.wrappernew .item1 h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* Quick trip heading */
+.quick h3 {
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 1px;
+}
+
+.quick p {
+    margin-left: 45px;
+}
+
+
+.button{
+    display: flex;
+}
+.button .romance{
+    display: flex;
+    border-radius: 1000px;
+    border-color: red;
+    width: 20px;
+    margin-left: 80px;
+    margin-right: 1px;
+    margin-top: 7px;
+}
+.button .icon{
+    margin-right: 8px;
+}
+.button .romance:hover{
+    color: #04AA6D;
+}
+.button .beach{
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+.button .beach .icon2{
+    margin-right: 8px;
+}
+.button .beach:hover{
+    color: #04AA6D;
+}
+.button .outdoor{
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 105px;
+    margin-top: 7px;
+}
+.button .outdoor .icon3{
+    margin-right: 8px;
+}
+.button .outdoor:hover{
+    color: #04AA6D;
+}
+
+.button .country{
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 45px;
+    background-color: white;
+    color: #04AA6D;
+    border: 1px solid #04AA6D;
+    border-radius: 50px;
+    width: 107px;
+    height: 40px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 15px;   
+}
+.button .country .icon4{
+    margin-right: 8px;
+}
+
+
+/* Quick trip horizontal scroll */
+
+.wrapper2 {
+    max-height: 500px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.wrapper2::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper2 .itemnew {
+    min-width: 170px;
+    height: 180px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+.wrapper2 .itemnew img {
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+}
+.wrapper2 .itemnew h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* Get inspiration for your next trip */
+
+.inspire h3 {
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 1px;
+}
+
+
+/* Get inspiration for your next trip */
+
+.wrapper3 {
+    max-height: 5000px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.wrapper3::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper3 .inspireitem {
+    min-width: 170px;
+    height: 180px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: 97px;
+}
+
+
+.wrapper3 .inspireitem1 {
+    min-width: 550px;
+    height: 350px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: -70px;
+}
+
+
+.wrapper3 .inspireitem1 img {
+    width: 555px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+
+.wrapper3 .inspireitem img {
+    width: 265px;
+    height: 230px;
+    border-radius: 10px;
+}
+.wrapper3 .inspireitem h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.wrapper3 .inspireitem1  h4{
+    /* position:inherit; */
+     /* top: 2335px;  */
+    /* left: 40px; */
+    /* margin-left: 25px; */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -80px;
+    margin-left: 2px; 
+}
+
+.wrapper3 .inspireitem1  p{
+    color: white;
+    /* margin-top: -4px; */
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.wrapper3 .inspireitem .orlando h6{
+        inline-size: 220px;
+        text-align: left;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 4px;
+}
+.wrapper3 .inspireitem p{
+    inline-size: 220px;
+    text-align: left;
+    /* font-weight: bold; */
+    margin-top: 1px;
+    margin-left: 4px;
+    font-size: 15px;
+}
+
+
+/* All places */
+
+.templemasjid h3{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.templemasjid p{
+    margin-left: 50px;
+}
+.tempselect{
+    display: flex;
+}
+.tempselect .khrist{
+    display: flex;
+    border-radius: 1000px;
+    border-color: red;
+    width: 20px;
+    margin-left: 80px;
+    margin-right: 1px;
+    margin-top: 7px;
+}
+.tempselect .iconnew{
+    margin-right: 8px;
+}
+.tempselect .khrist:hover{
+    color: #04AA6D;
+}
+.tempselect .muslim{
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+.tempselect .muslim .iconnew2{
+    margin-right: 8px;
+}
+.tempselect .muslim:hover{
+    color: #04AA6D;
+}
+.tempselect .park{
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 105px;
+    margin-top: 7px;
+}
+.tempselect .park .iconnew3{
+    margin-right: 8px;
+}
+.tempselect .park:hover{
+    color: #04AA6D;
+}
+.tempselect .hindu{
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 45px;
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 50px;
+    width: 107px;
+    height: 40px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 15px;  
+}
+.tempselect .hindu .iconnew4{
+    margin-right: 8px;
+}
+
+/* hindu muslim church */
+.wrapper5 {
+    max-height: 500px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.wrapper5::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper5 .religion {
+    min-width: 250px;
+    height: 230px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+.wrapper5 .religion img {
+    width: 260px;
+    height: 170px;
+    border-radius: 10px;
+}
+.wrapper5 .religion h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* .wrapper5 .religion .img2 h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+} */
+
+/*  img2 flag */
+.wrapper5 .religion .img2 h5 img{
+    width: 30px;
+    height: 19px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* Rating Places */
+.stay h3{
+    margin-left: 47px;
+    font-weight: bold;
+}
+.stay p{
+    margin-left: 47px;
+}
+
+.star {
+    max-height: 500px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.star::-webkit-scrollbar {
+    width: 0;
+}
+.star .main{
+    height: 340px;
+    background-color: white;
+    width: 272px;
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 3px 0 gray;
+    margin-bottom: 20px;
+    margin-right: 12px;
+}
+.star .main .image img{
+    width: 272px;
+    height:190px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.star .main .text1{
+    margin-left: 5px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.star .main p{
+    margin-left: 3px;
+    color: grey;
+    margin-top: 5px;
+}
+
+
+
+.star .main .para2{
+    display: flex;
+}
+.star .main .para2 p{
+    margin-left: 119px;
+    margin-top: 40px;
+    font-size: 13px;
+    margin-right: 1px;
+}
+.star .main  .para2 .money{
+    margin-left: 5px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.star .main .para2 h5{
+    margin-top: 41px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+/* visit your favourite temple */
+
+.border{
+    width: 1130px;
+    height: 280px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-left: 45px;
+    margin-top: 10px;
+
+}
+.border .round1{
+    height: 70px;
+    width: 70px;
+    background-color: orange;
+    margin-top: 150px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-width: 1000px;
+}
+
+.border img{
+    height: 270px;
+    margin-top: -210px;
+    margin-left: 150px;
+}
+.border .txt {
+   height: 279px;
+   width: 330px;
+   background-color: rgb(36, 87, 255);
+   margin-left: 570px;
+   margin-top: -280px;
+   border-top-right-radius: 20%;
+   border-bottom-left-radius: 20%;
+}
+.border .text1 h3{
+   margin-left: 620px;
+   margin-top: -200px;
+   /* font-size: 20px; */
+   font-weight: bold;
+   color: white;
+}
+.border .text2{
+    margin-left: 620px;
+    margin-top: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.border .btn2{
+    margin-left: 620px;
+    margin-top: 10px;
+    width: 230px;
+    height: 35px;
+    border-radius: 10px;
+    color: rgb(36, 87, 255);
+    border: none;
+    text-align: center;
+}
+.border .imgair img{
+    height: 180px;
+    margin-left: 870px;
+}
+.border .imgcar img{
+    height: 100px;
+    margin-left: 960px;
+    margin-top: -20px;
+}
+.border .round2{
+    height: 50px;
+    width: 50px;
+    margin-top: -260px;
+    margin-left: 90px;
+    border-radius: 50%;
+    background-color: purple;
+}
+.border .round3{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: -60px;
+    margin-left: 170px;
+}
+.border .round4{
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: 170px;
+    margin-left: 80px;
+}
+.border .round5{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(159, 49, 67);
+    border-radius: 50%;
+    margin-top: -70px;
+    margin-left: 500px;
+}
+.border .round6{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-left: 450px;
+    margin-top: -110px;
+}
+
+/* Keep on planning */
+.plan{
+    width: 1130px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(25, 25, 88);
+    margin-top: 50px;
+}
+.footer .para{
+    color: grey;
+    margin-left: 390px;
+    padding-top: 50px;
+}
+.footer .follow{
+    color: white;
+    margin-left: 505px;
+    margin-top: -80px;
+    font-weight: bold;
+}
+.footer .linkedin{
+    color: white;
+    margin-left: 660px;
+    margin-top: -31px;
+}
+.footer .git{
+    color: white;
+    margin-left: 680px;
+    margin-top: -24px;
+}
+.footer .linkedin:hover{
+    color: yellow;
+}
+.footer .git:hover{
+    color: orange;
+}
+.footer .para2{
+    color: grey;
+    margin-left: 470px;
+    margin-top: -39px;
+}
+.footer .para3{
+    color: grey;
+    margin-left: 490px;
+    margin-top: -25px;
+}

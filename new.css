@@ -1,0 +1,203 @@
+.wrappersix{
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.card6 .st1 h5{
+    margin-top: 165px;
+    color: black;
+    margin-right: 80px;
+}
+.st1 .imgsix{
+    max-width: 50px;
+    max-height: 20px;
+    margin-top: -90px;
+    overflow: visible;
+}
+.card6 .st2{
+    margin-top: 165px;
+    color: black;
+    margin-right: 110px;
+}
+.card6 .st3{
+    margin-top: 120px;
+    color: black;
+    margin-right: 59px;
+}
+.card6 .st4{
+    margin-top: 120px;
+    color: black;
+    margin-right: 55px;
+}
+.card6 .st5{
+    margin-top: 120px;
+    color: black;
+    margin-right: 48px;
+}
+.card6 .st6{
+    margin-top: 120px;
+    color: black;
+    margin-right: 63px;
+}
+.card6 .st7{
+    margin-top: 120px;
+    color: black;
+    margin-right: 40px;
+}
+.card6 .st8{
+    margin-top: 120px;
+    color: black;
+    margin-right: -2px;
+}
+.card6 .st9{
+    margin-top: 120px;
+    color: black;
+    margin-right: 38px;
+}
+.card6 .st10{
+    margin-top: 120px;
+    color: black;
+    margin-right: 50px;
+}
+.card6 .st11{
+    margin-top: 120px;
+    color: black;
+    margin-right: 37px;
+}
+.card6 .st12{
+    margin-top: 120px;
+    color: black;
+    margin-right: 48px;
+}
+.card6 .st13{
+    margin-top: 120px;
+    color: black;
+    margin-right: 40px;
+}
+.card6 .st14{
+    margin-top: 195px;
+    color: black;
+    margin-right: 75px;
+}
+.card6 .st15{
+    margin-top: 195px;
+    color: black;
+    margin-right: 88px;
+}
+.card6 .st16{
+    margin-top: 195px;
+    color: black;
+    margin-right: 55px;
+}
+.card6 .st17{
+    margin-top: 195px;
+    color: black;
+    margin-right: 70px;
+}
+.card6 .st18{
+    margin-top: 195px;
+    color: black;
+    margin-right: 57px;
+}
+.card6 .st19{
+    margin-top: 195px;
+    color: black;
+    margin-right: 55px;
+}
+.card6 .st20{
+    margin-top: 195px;
+    color: black;
+    margin-right: 88px;
+}
+.card6 .st21{
+    margin-top: 195px;
+    color: black;
+    margin-right: 15px;
+}
+.card6 .st22{
+    margin-top: 195px;
+    color: black;
+    margin-right: 65px;
+}
+
+
+.cardswrapper6{
+    position: relative;
+    margin: 4rem 0;   
+}
+.cardswrapper6 button{
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: .8rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+}
+.cardswrapper6 button:hover{
+    background-color: orange;
+}
+.cardswrapper6 button:active{
+    background-color: rgb(0, 183, 255);
+}
+.wrappersix .cardswrapper6 .cards6 .card6 img{
+    width: 255px;
+    max-width: 100%;
+    object-fit: cover;
+    height: 165px;
+    border-radius: 10px;
+}
+
+.prev6{
+    left: -1rem;
+   
+}
+.next6{
+    right: 0;
+}
+.cards6{
+    white-space: nowrap;
+    overflow-x: auto;
+    background-color: red;
+    /* background-color: white; */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+    height: 220px;
+}
+.cards6::-webkit-scrollbar{
+    display: none;
+}
+.cards6 .card6{
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 215px;
+    background-color: white;
+}
+
+.cards6  .card6:not(:last-child){
+    margin-right: 14px;
+}
+.card6 > div{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    transition: all 200ms linear;
+}
+
+
+
+
+ 

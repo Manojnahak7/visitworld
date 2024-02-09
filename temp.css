@@ -1,0 +1,1375 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 190px;
+    width: 100%;
+    background-color: purple;
+}
+.nav img{
+    width: 190px;
+    position: absolute;
+    top: 25px;
+    left: 6%;
+}
+.nav ul {
+    margin-left: 420px;
+    margin-right: 20px;
+    margin-top: 9px;
+}
+
+.nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 40px;
+}
+
+.nav ul li a {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.containerlang #selectlang {
+    float: right;
+    margin-right: -140px;
+    margin-top: 37px;
+}
+
+
+.nav .dark {
+    margin-top: -98px;
+    color: white;
+    margin-left: 800px;
+}
+
+.nav .signlog {
+    margin-top: -135px;
+    margin-left: 1005px;
+}
+
+.nav .signlog #signin {
+    width: 90px;
+    height: 45px;
+    background-color: orange;
+    border-radius: 5px;
+    color: rgb(48, 48, 237);
+    border: 1px solid red;
+
+}
+
+.nav .signlog #signin:hover {
+    cursor: pointer;
+}
+
+.nav .signlog #login {
+    margin-top: -8px;
+    background-color: rgb(23, 23, 231);
+    width: 90px;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid red;
+}
+
+.nav .signlog #login:hover {
+    cursor: pointer;
+}
+
+/* nav2 */
+
+.nav2 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 58px;
+}
+
+.nav2 .btn1 {
+    width: 110px;
+    height: 45px;
+    background-color: transparent;
+    margin-top: -170px;
+    border: none;
+    color: white;
+    padding-right: 10px;
+}
+
+.nav2 .btn1 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.nav2 .btn1 a:hover {
+    background-color: rgb(108, 58, 108);
+    color: cyan;
+    border-color: purple;
+}
+
+.nav2 .btn1 .all {
+    margin-right: 10px;
+}
+
+.nav2 .btn2 {
+    margin-top: -170px;
+    margin-left: 6px;
+    height: 42px;
+    width: 100px;
+    background-color: rgb(108, 58, 108);
+    margin-top: -170px;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    padding-right: 10px;
+}
+
+.nav2 .btn2 .temple {
+    margin-right: 10px;
+}
+
+.nav2 .btn3 {
+    margin-top: -170px;
+    margin-left: 10px;
+    height: 45px;
+    width: 130px;
+    border: none;
+    background-color: transparent;
+    color: white;
+   
+}
+
+.nav2 .btn3{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.nav2 .btn3:hover {
+    background-color: rgb(108, 58, 108);
+    color: cyan;
+    border-color: purple;
+}
+
+
+.nav2 .btn3 .masjid {
+    margin-right: 10px;
+}
+
+.nav2 .btn4 {
+    margin-top: -170px;
+    margin-left: 6px;
+    height: 45px;
+    width: 130px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.nav2 .btn4 .church {
+    margin-right: 10px;
+}
+.nav2 .btn4{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.nav2 .btn4:hover {
+    background-color: rgb(108, 58, 108);
+    color: cyan;
+    border-color: purple;
+}
+
+.nav2 .btn5 {
+    margin-top: -170px;
+    margin-left: 7px;
+    height: 45px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.nav2 .btn5 .zoo {
+    margin-right: 10px;
+}
+.nav2 .btn5{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.nav2 .btn5:hover {
+    background-color: rgb(108, 58, 108);
+    color: cyan;
+    border-color: purple;
+}
+.selectsearch1{
+    height: 50px;
+    width: 900px;
+    background-color: orange;
+    margin-left: 195px;
+    margin-top: -80px;
+    border-radius: 5px;
+}
+/* Country select */
+
+.hero {
+    /* background-color: red; */
+    width: 290px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.selector {
+    width: 350px;
+    height: 10px;
+  }
+
+  #selectfield {
+    width:180px;
+    padding: 5px 15px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 6px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: -7px;
+    margin-left: 3px;
+    padding-top: 18px;
+  }
+
+  #selectfield img {
+    width: 12px;
+    margin-top: -10px;
+    transition: transform 0.5s;
+    
+  }
+  #list{
+    width: 183px;
+    /* background: rgba(255, 255, 255, 0.7); */
+    background: orange;
+    border: 6px;
+    overflow-y:scroll;
+    height: 220px;
+    border-radius: 5px;
+    margin-top: -20px;
+    position: relative;
+    z-index: 1;
+  }
+  #list::-webkit-scrollbar{
+    display: none;
+  }
+  .options{
+    width: 100%;
+    padding: 15px 0 2px 70px;
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: -40px;
+  }
+  .options:hover{
+    background: rgba(255, 255, 255, 0.7);
+    width: 194px;
+  }
+  .options img{
+    width: 25px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    border-radius: 5px;
+    
+  }
+  .hide{
+    visibility: hidden;
+  }
+  .rotate{
+    transform: rotate(180deg);
+  }
+
+  /* Searchbar */
+
+  .selectsearch1 .searchbar1 .srch1{
+        width: 600px;
+        height: 43px;
+        border-radius: 5px;
+        border: none;
+        padding-left: 40px;
+  }
+  .selectsearch1 .searchbar1{
+    margin-left: 187px;
+    margin-top: -26px;
+  }
+  .selectsearch1 .searchbar1 .srchicon1{
+    margin-top: -33px;
+    margin-left: 15px;
+  }
+
+ .searchbar1 .srchbtn1{
+    margin-left: 604px;
+    margin-top: -34px;
+ }
+ .searchbar1 .srchbtn1 #srchb{
+    width: 105px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    background-color: #04AA6D;
+    
+ }
+
+ /* Content pic */
+ .content1{
+    height: 280px;
+    width: 1152px;
+    border: 1px solid rgb(122, 121, 121);
+    margin-top: 70px;
+    margin-left: 57px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+ }
+ 
+ .content1 .icn1{
+    margin-left: 800px;
+    font-size: 25px;
+    margin-top: -15px;
+ }
+ .content1 h3{
+    margin-top: 7px;
+    margin-left: 390px;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .content1 .paragraph1{
+    width: 735px;
+    margin-left: 390px;
+    margin-top: 10px;
+    font-size: 18px;
+ }
+ .content1 .paragraph1 a{
+    text-decoration: none;
+ }
+
+ /* Gallery slide */
+ .smallimg img{
+    height: 46px;
+    width: 42px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .8;
+    border-radius: 5px 0 0 5px;
+}
+.smallimg img:hover{
+    opacity: 1;
+}
+.smallimg{
+    float: left;
+}
+.product{
+    top: 430px;
+    left: 241px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.imgcontainer img{
+    width: 310px;
+    height: 270px;
+    border-radius: 0 5px 5px 0;
+}
+.imgcontainer{
+    float: right;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+/* for second gallery img */
+
+.content2{
+    height: 280px;
+    width: 1152px;
+    border: 1px solid rgb(122, 121, 121);
+    margin-top: 50px;
+    margin-left: 57px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+ }
+
+ .content2 .icn2{
+    margin-left: 800px;
+    font-size: 25px;
+    margin-top: -15px;
+ }
+ .content2 h3{
+    margin-top: 7px;
+    margin-left: 30px;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .content2 .paragraph2{
+    width: 735px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+ }
+ .content2 .paragraph2 a{
+    text-decoration: none;
+ }
+
+ /* Gallery slide */
+ .smallimg2 img{
+    height: 46px;
+    width: 42px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .8;
+    border-radius: 0 5px 5px 0;
+    /* margin-left: 497px; */
+}
+.smallimg2 img:hover{
+    opacity: 1;
+}
+.smallimg2{
+    /* float: left; */
+    float: right;
+}
+.product2{
+    top: 615px;
+    left: 845px;
+    /* transform: translate(-50%,-50%); */
+    position: absolute;
+}
+.imgcontainer2 img{
+    width: 310px;
+    height: 270px;
+    border-radius: 5px 0 0 5px;
+}
+.imgcontainer2{
+    /* float: right; */
+    float: left;
+    padding-top: 10px;
+    /* padding-left: 5px; */
+    padding-right: 5px;
+}
+
+/* for third gallery img */
+
+.content3{
+    height: 290px;
+    width: 1152px;
+    border: 1px solid rgb(122, 121, 121);
+    margin-top: 50px;
+    margin-left: 57px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+ }
+
+ .content3 .icn3{
+    margin-left: 800px;
+    font-size: 25px;
+    margin-top: -15px;
+ }
+ .content3 h3{
+    margin-top: 7px;
+    margin-left: 390px;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .content3 .paragraph3{
+    width: 735px;
+    margin-left: 390px;
+    margin-top: 10px;
+    font-size: 18px;
+ }
+ .content3 .paragraph3 a{
+    text-decoration: none;
+ }
+
+ /* Gallery slide */
+ .smallimg3 img{
+    height: 48px;
+    width: 42px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .8;
+    border-radius: 5px 0 0 5px;
+    /* margin-left: 497px; */
+}
+.smallimg3 img:hover{
+    opacity: 1;
+}
+.smallimg3{
+    float: left;
+    /* float: right; */
+}
+.product3{
+    top: 945px;
+    left: 64px;
+    /* transform: translate(-50%,-50%); */
+    position: absolute;
+}
+.imgcontainer3 img{
+    width: 310px;
+    height: 281px;
+    border-radius: 0 5px 5px 0;
+}
+.imgcontainer3{
+    float: right;
+    /* float: left; */
+    padding-top: 10px;
+    padding-left: 5px;
+    /* padding-right: 5px; */
+}
+
+/* for fourth gallery img */
+
+.content4{
+    height: 290px;
+    width: 1152px;
+    border: 1px solid rgb(122, 121, 121);
+    margin-top: 50px;
+    margin-left: 57px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+ }
+
+ .content4 .icn4{
+    margin-left: 800px;
+    font-size: 25px;
+    margin-top: -15px;
+ }
+ .content4 h3{
+    margin-top: 7px;
+    margin-left: 20px;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .content4 .paragraph4{
+    width: 735px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+ }
+ .content4 .paragraph4 a{
+    text-decoration: none;
+ }
+
+ /* Gallery slide */
+ .smallimg4 img{
+    height: 48px;
+    width: 42px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .8;
+    border-radius: 0 5px 5px 0;
+    /* margin-left: 497px; */
+}
+.smallimg4 img:hover{
+    opacity: 1;
+}
+.smallimg4{
+    /* float: left; */
+    float: right;
+}
+.product4{
+    top: 1285px;
+    left: 845px;
+    /* transform: translate(-50%,-50%); */
+    position: absolute;
+}
+.imgcontainer4 img{
+    width: 310px;
+    height: 281px;
+    border-radius: 5px 0 0 5px;
+}
+.imgcontainer4{
+    /* float: right; */
+    float: left;
+    padding-top: 10px;
+    /* padding-left: 5px; */
+    padding-right: 5px;
+}
+
+
+/* for fifth gallery img */
+
+.content5{
+    height: 275px;
+    width: 1152px;
+    border: 1px solid rgb(122, 121, 121);
+    margin-top: 50px;
+    margin-left: 57px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+ }
+
+ .content5 .icn5{
+    margin-left: 800px;
+    font-size: 25px;
+    margin-top: -15px;
+ }
+ .content5 h3{
+    margin-top: 7px;
+    margin-left: 390px;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .content5 .paragraph5{
+    width: 735px;
+    margin-left: 390px;
+    margin-top: 10px;
+    font-size: 18px;
+ }
+ .content5 .paragraph4 a{
+    text-decoration: none;
+ }
+
+ /* Gallery slide */
+ .smallimg5 img{
+    height: 45px;
+    width: 42px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .8;
+    border-radius: 5px 0 0 5px;
+    /* margin-left: 497px; */
+}
+.smallimg5 img:hover{
+    opacity: 1;
+}
+.smallimg5{
+    float: left;
+    /* float: right; */
+}
+.product5{
+    top: 1625px;
+    left: 63px;
+    /* transform: translate(-50%,-50%); */
+    position: absolute;
+}
+.imgcontainer5 img{
+    width: 310px;
+    height: 266px;
+    border-radius: 0 5px 5px 0;
+}
+.imgcontainer5{
+    float: right;
+    /* float: left; */
+    padding-top: 10px;
+    padding-left: 5px;
+    /* padding-right: 5px; */
+}
+
+
+/* Top 20 Temples */
+.toptemple{
+    margin-left: 57px;
+    margin-top: 22px;
+}
+.toptemple h3{
+    font-weight: bold;
+}
+.wrapper{
+    width: 90%;
+    max-width: 1380px;
+    margin: 0 auto;
+    /* height: 200px; */
+}
+.card .st1{
+    margin-top: 191px;
+    color: white;
+    margin-right: 65px;
+   }
+.card .st2{
+    margin-top: 191px;
+    color: white;
+    margin-right: 9px;
+}
+.card .st3{
+    margin-top: 191px;
+    color: white;
+    margin-right: 42px;
+}
+.card .st4{
+    margin-top: 191px;
+    color: white;
+    margin-right: 34px;
+}
+.card .st5{
+    margin-top: 191px;
+    color: white;
+    margin-right: 69px;
+}
+.card .st6{
+    margin-top: 191px;
+    color: white;
+    margin-right: 11px;
+}
+.card .st7{
+    margin-top: 191px;
+    color: white;
+    margin-right: 63px;
+}
+.card .st8{
+    margin-top: 191px;
+    color: white;
+    margin-right: 83px;
+}
+.card .st9{
+    margin-top: 191px;
+    color: white;
+    margin-right: 45px;
+}
+.card .st10{
+    margin-top: 191px;
+    color: white;
+    margin-right: 65px;
+}
+.card .st11{
+    margin-top: 191px;
+    color: white;
+    margin-right: 85px;
+}
+.card .st12{
+    margin-top: 191px;
+    color: white;
+    margin-right: 68px;
+}
+.card .st13{
+    margin-top: 191px;
+    color: white;
+    margin-right: 64px;
+}
+.card .st14{
+    margin-top: 191px;
+    color: white;
+    margin-right: 46px;
+}
+.card .st15{
+    margin-top: 191px;
+    color: white;
+    margin-right: 43px;
+}
+.card .st16{
+    margin-top: 191px;
+    color: white;
+    margin-right: 35px;
+}
+.card .st17{
+    margin-top: 191px;
+    color: white;
+    margin-right: 42px;
+}
+.card .st18{
+    margin-top: 191px;
+    color: white;
+    margin-right: 45px;
+}
+.card .st19{
+    margin-top: 191px;
+    color: white;
+    margin-right: 70px;
+}
+.card .st20{
+    margin-top: 191px;
+    color: white;
+    margin-right: 50px;
+}
+
+
+
+.cardswrapper{
+    position: relative;
+    margin: 4rem 0;    
+}
+.cardswrapper button{
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: .8rem;
+    border-radius: 50%;
+    /* box-shadow: 1px 1px 8px rgba(0 0 0/ 20%); */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* z-index: 1; */
+    /* transition: all 200ms linear; */
+    cursor: pointer;
+
+}
+.cardswrapper button:hover{
+    background-color: orange;
+}
+.cardswrapper button:active{
+    background-color: rgb(0, 183, 255);
+}
+.wrapper .cardswrapper .cards .card img{
+    width: 257px;
+    /* aspect-ratio: 1; */
+    max-width: 100%;
+    object-fit: cover;
+    height: 200px;
+    /* margin-left: 2px; */
+    /* transition: all 200ms linear; */
+}
+.prev{
+    left: -1rem;
+   
+}
+.next{
+    right: 0;
+}
+.cards{
+    white-space: nowrap;
+    overflow-x: auto;
+    /* background-color: red; */
+    background-color: white;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+    width: 1159px;
+    margin-left: -7px;
+    margin-top: -44px;
+}
+.cards::-webkit-scrollbar{
+    display: none;
+}
+.cards .card{
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 240px;
+    /* background-color: white; */
+    background-color: orange;
+}
+
+.cards  .card:not(:last-child){
+    margin-right: 14px;
+}
+.card > div{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    transition: all 200ms linear;
+}
+
+
+/* Most popular temples in india */
+.mostpopular{
+    margin-top: -40px;
+    margin-left: 53px;
+}
+.mostpopular h3{
+    font-weight: bold;
+}
+
+.wrapper2{
+    width: 90%;
+    max-width: 1380px;
+    margin: 0 auto;
+    /* height: 200px; */
+}
+.card2 .st1{
+    margin-top: 195px;
+    color: white;
+    margin-right: 105px;
+}
+.card2 .st2{
+    margin-top: 195px;
+    color: white;
+    margin-right: 105px;
+}
+.card2 .st3{
+    margin-top: 195px;
+    color: white;
+    margin-right: 93px;
+}
+.card2 .st4{
+    margin-top: 195px;
+    color: white;
+    margin-right: 108px;
+}
+.card2 .st5{
+    margin-top: 195px;
+    color: white;
+    margin-right: 95px;
+}
+.card2 .st6{
+    margin-top: 195px;
+    color: white;
+    margin-right: 88px;
+}
+.card2 .st7{
+    margin-top: 195px;
+    color: white;
+    margin-right: 80px;
+}
+.card2 .st8{
+    margin-top: 195px;
+    color: white;
+    margin-right: 80px;
+}
+.card2 .st9{
+    margin-top: 195px;
+    color: white;
+    margin-right: 110px;
+}
+.card2 .st10{
+    margin-top: 195px;
+    color: white;
+    margin-right: 77px;
+}
+.card2 .st11{
+    margin-top: 195px;
+    color: white;
+    margin-right: 100px;
+}
+.cardswrapper2{
+    position: relative;
+    margin: 4rem 0;    
+}
+.cardswrapper2 button{
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: .8rem;
+    border-radius: 50%;
+    /* box-shadow: 1px 1px 8px rgba(0 0 0/ 20%); */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* z-index: 1; */
+    /* transition: all 200ms linear; */
+    cursor: pointer;
+
+}
+.cardswrapper2 button:hover{
+    background-color: orange;
+}
+.cardswrapper2 button:active{
+    background-color: rgb(0, 183, 255);
+}
+.wrapper2 .cardswrapper2 .cards2 .card2 img{
+    width: 330px;
+    /* aspect-ratio: 1; */
+    max-width: 100%;
+    object-fit: cover;
+    height: 200px;
+    /* margin-left: 2px; */
+    /* transition: all 200ms linear; */
+}
+.prev2{
+    left: -1rem;
+    z-index: 1;
+   
+}
+.next2{
+    right: 0;
+}
+.cards2{
+    white-space: nowrap;
+    overflow-x: auto;
+    /* background-color: red; */
+    background-color: white;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+    width: 1173px;
+    margin-left: -9px;
+    margin-top: -45px;
+}
+.cards2::-webkit-scrollbar{
+    display: none;
+}
+.cards2 .card2{
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 280px;
+    /* background-color: white; */
+    background-color: rgb(0, 115, 255);
+    width: 330px;
+}
+
+.cards2  .card2:not(:last-child){
+    margin-right: 10px;
+}
+.card2 > div{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    transition: all 200ms linear;
+}
+
+
+/* Sticky Navbar */
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    /* position: fixed; */
+    top: 0px;
+    width: 1263px;
+    z-index: 1;
+    margin-left: 0;
+    border: none;
+    border-radius: 0;
+  }
+  .sticky #selectfield{
+    margin-left: 30px;
+  }
+  .sticky  .srch1{
+    margin-left: 200px;
+    margin-top: -1px;
+}
+.sticky .searchbar1 .srchicon1{
+    margin-left: 210px;
+}
+.sticky .srchbtn1{
+    margin-left: 805px;
+}
+.sticky .options{
+    /* margin-left: 10px; */
+    margin-right: 20px;
+}
+.sticky #list{
+    margin-left: 30px;
+}
+.sticky .smallimg img{
+    margin-top: 30px;
+}
+
+
+/* Footer */
+.footer {
+    height: 350px;
+    width: 100%;
+    background-color: black;
+  }
+
+  .compinfo {
+    color: white;
+    margin-left: 100px;
+    padding: 60px 0 0 0;
+    font-size: 20px;
+    margin-top: -15px;
+  }
+
+  .comppara {
+    color: white;
+    width: 300px;
+    margin: 10px 0 0 100px;
+  }
+
+  .logo img {
+    width: 100px;
+    margin-left: 105px;
+    margin-top: 15px;
+  }
+
+  .follow {
+    color: white;
+    margin-left: 530px;
+    margin-top: -245px;
+    font-size: 20px;
+  }
+
+  .manoj {
+    color: white;
+    margin-left: 530px;
+    font-size: 17px;
+    margin-top: 12px;
+  }
+
+  .tarun {
+    color: white;
+    margin-left: 530px;
+    font-size: 17px;
+    margin-top: 12px;
+  }
+
+  .vivek {
+    color: white;
+    margin-left: 530px;
+    font-size: 17px;
+    margin-top: 12px;
+  }
+
+  /* Tarun Social media */
+  .linkedin1 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(210, 99, 99);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    margin-right: 20px;
+  }
+  .linkedin1 a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .linkedin1:hover {
+    background-color: rgb(99, 97, 97);
+    color: orange;
+  }
+
+  .insta1 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(210, 99, 99);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .insta1 a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .insta1:hover {
+    background-color: rgb(99, 97, 97);
+  }
+
+  .facebook1 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(210, 99, 99);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .facebook1 a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .facebook1:hover {
+    background-color: rgb(99, 97, 97);
+  }
+
+  .link1 {
+    margin-top: 13px;
+  }
+
+  /* Manoj Social Media */
+  .linkedin2 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(210, 99, 99);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .linkedin2 a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .linkedin2:hover {
+    background-color: rgb(99, 97, 97);
+  }
+
+  .insta2 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(210, 99, 99);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .insta2 a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .insta2:hover {
+    background-color: rgb(99, 97, 97);
+  }
+
+  .facebook2 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(210, 99, 99);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+.facebook2 a{
+  text-decoration: none;
+  color: white;
+}
+  .facebook2:hover {
+    background-color: rgb(99, 97, 97);
+  }
+
+  .link2 {
+    margin-top: 13px;
+  }
+
+  /* Vivekananda Social Media */
+  .linkedin3 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(210, 99, 99);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .linkedin3 a{
+    text-decoration: none;
+    color: white;
+ }
+
+  .linkedin3:hover {
+    background-color: rgb(99, 97, 97);
+  }
+
+  .insta3 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(210, 99, 99);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+.insta3 a{
+  text-decoration: none;
+  color: white;
+}
+  .insta3:hover {
+    background-color: rgb(99, 97, 97);
+  }
+
+  .facebook3 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(210, 99, 99);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .facebook3 a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .facebook3:hover {
+    background-color: rgb(99, 97, 97);
+    color: orange;
+  }
+
+  .link3 {
+    margin-top: 13px;
+  }
+
+  .popularplace1 {
+    padding-left: 850px;
+    color: white;
+    margin-top: -257px;
+    font-size: 20px;
+  }
+
+  .imgnew1 img {
+    width: 90px;
+    height: 60px;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+
+  .imgnew1 {
+    display: flex;
+    margin-left: 850px;
+
+  }
+
+  .imgnew2 img {
+    width: 90px;
+    height: 60px;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+
+  .imgnew2 {
+    display: flex;
+    margin-left: 850px;
+  }
+
+  .imgnew3 img {
+    width: 90px;
+    height: 60px;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+
+  .imgnew3 {
+    display: flex;
+    margin-left: 850px;
+
+  }
+
+  .copyright {
+    color: white;
+    margin-left: 100px;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+
+

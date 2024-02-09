@@ -1,0 +1,3272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*nav */
+#navbar {
+    background-color: purple;
+    height: 390px;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+#navbar img {
+    width: 190px;
+    position: absolute;
+    top: 25px;
+    left: 5%;
+}
+
+#navbar ul {
+    margin-left: 350px;
+    margin-right: 20px;
+    margin-top: 9px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 40px;
+}
+
+#navbar ul li a {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.containerlang #selectlang {
+    float: right;
+    margin-right: 395px;
+    margin-top: -66px;
+}
+#selectlang option{
+    height: 20px;
+    overflow-y: scroll;
+    padding: 5px;
+}
+
+
+#navbar .dark {
+    margin-top: -70px;
+    color: white;
+    margin-left: 730px;
+}
+
+#navbar .signlog {
+    margin-top: -35px;
+    margin-left: 970px;
+}
+
+#navbar .signlog #signin {
+    width: 90px;
+    height: 45px;
+    background-color: orange;
+    border-radius: 5px;
+    color: rgb(48, 48, 237);
+    border: 1px solid red;
+
+}
+
+#navbar .signlog #signin:hover {
+    cursor: pointer;
+}
+
+#navbar .signlog #login {
+    margin-top: -8px;
+    background-color: rgb(23, 23, 231);
+    width: 90px;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid red;
+}
+
+#navbar .signlog #login:hover {
+    cursor: pointer;
+}
+
+/* nav2 */
+
+.nav2 {
+    display: flex;
+    margin-top: -135px;
+    margin-left: 58px;
+}
+
+.nav2 .btn1 {
+    width: 100px;
+    height: 45px;
+    background-color: rgb(108, 58, 108);
+    margin-top: -170px;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    padding-right: 10px;
+}
+
+.nav2 .btn1 .all {
+    margin-right: 10px;
+}
+
+.nav2 .btn2{
+    margin-top: -170px;
+    margin-left: 20px;
+    height: 45px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    color: white;
+   
+}
+.nav2 .btn2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav2 .btn2 .temple {
+    margin-right: 10px;
+}
+
+.nav2 .btn3 {
+    margin-top: -170px;
+    margin-left: 20px;
+    height: 45px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.nav2 .btn3 .masjid {
+    margin-right: 10px;
+}
+
+.nav2 .btn4 {
+    margin-top: -170px;
+    margin-left: 20px;
+    height: 45px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.nav2 .btn4 .church {
+    margin-right: 10px;
+}
+
+.nav2 .btn5 {
+    margin-top: -170px;
+    margin-left: 20px;
+    height: 45px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.nav2 .btn5 .zoo {
+    margin-right: 10px;
+}
+
+
+.find h1 {
+    margin-top: -60px;
+    margin-left: 370px;
+    color: white;
+    font-weight: bold;
+}
+
+.find h3 {
+    margin-top: 20px;
+    margin-left: 300px;
+    color: white;
+}
+
+/* Searchbar */
+.search {
+    margin-left: 250px;
+    margin-top: 70px;
+    width: 723px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.inp {
+    width: 590px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    margin-left: 4px;
+    padding-left: 45px;
+    font-size: 15px;
+}
+
+.search .icn {
+    margin-left: 15px;
+    margin-top: -38px;
+    color: black;
+}
+
+.search .click {
+    margin-left: 600px;
+    margin-top: -36px;
+}
+
+.search .click #searchbtn {
+    width: 115px;
+    height: 49px;
+    background-color: rgb(24, 78, 255);
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+}
+
+.secondbtn {
+    display: flex;
+    margin-top: -100px;
+    margin-left: 340px;
+}
+
+.secondbtn .btn6 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-right: 60px;
+}
+
+.secondbtn .btn6 .trending {
+    margin-right: 10px;
+}
+
+.secondbtn .btn7 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-right: 70px;
+}
+
+.secondbtn .btn7 .recomend {
+    margin-right: 10px;
+}
+
+.secondbtn .btn8 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-right: 70px;
+}
+
+.secondbtn .btn8 .booking {
+    margin-right: 10px;
+}
+
+
+/* Discover Odisha */
+.discover {
+    background-color: rgb(37, 218, 238);
+    width: 1120px;
+    height: 180px;
+    margin-top: 130px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+.discover img {
+    width: 170px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 21px;
+    margin-top: 14px;
+    transform: rotate(355deg);
+}
+
+.discover h4 {
+    margin-top: -100px;
+    margin-left: 230px;
+    font-weight: bold;
+}
+
+.discover p {
+    margin-left: 230px;
+    font-weight: 500;
+}
+
+.discover .explore {
+    margin-left: 900px;
+    margin-top: -20px;
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 7px;
+    padding-left: 18px;
+    border: 1px solid black;
+}
+
+.discover .explore:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+/*container trending places */
+
+.trend {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.trends .img1 img {
+    width: 555px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 13px;
+    margin-left: -3px;
+}
+
+.trends .img2 img {
+    width: 555px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.trends {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trends .img1 .top-left {
+    position: absolute;
+    top: 770px;
+    left: 53px;
+    margin-left: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.trends .img1 .top-left img {
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-bottom: 6px;
+    border: 1px solid white;
+}
+
+.trends .img2 .top-left {
+    position: absolute;
+    top: 770px;
+    left: 36px;
+    margin-left: 610px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.trends .img2 .top-left img {
+    width: 30px;
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid white;
+}
+
+.row1 .column1 img {
+    width: 360px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 12px;
+
+}
+
+.row1 .column2 img {
+    width: 380px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+
+.row1 .column3 img {
+    width: 360px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 1px;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.row1 .column1 .top1 {
+    position: absolute;
+    top: 1033px;
+    left: 0px;
+    margin-left: 78px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.row1 .column1 .top1 img {
+    width: 30px;
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid white;
+}
+
+.row1 .column2 .top2 {
+    position: absolute;
+    top: 1030px;
+    left: 0px;
+    margin-left: 450px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    text-shadow: rgb(12, 12, 12) 1px 0 20px;
+}
+
+.row1 .column2 .top2 img {
+    width: 30px;
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid white;
+}
+
+.row1 .column3 .top3 {
+    position: absolute;
+    top: 1030px;
+    left: 0px;
+    margin-left: 845px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.row1 .column3 .top3 img {
+    width: 30px;
+    height: 20px;
+    margin-left: 1px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid white;
+}
+
+.trend h3 {
+    font-weight: bold;
+}
+
+
+/*Browse by property type */
+
+/* top place */
+
+.topplaces h3 {
+    font-weight: bold;
+    margin-left: 65px;
+    margin-top: 15px;
+    /* display: none; */
+}
+
+
+/*scroll horizontal */
+
+.wrapperfirst {
+    max-height: 500px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: -30px;
+    margin-right: 40px;
+    border-radius: 20px;
+    margin-top: 25px;
+    display: none;
+}
+
+.wrapperfirst::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapperfirst .item {
+    min-width: 290px;
+    height: 200px;
+    line-height: 110px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 13px;
+    border-radius: 10px;
+}
+
+.wrapperfirst .item img {
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* horizontal scrolling text */
+.wrapperfirst .item h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+
+/* Explore your favourite places for big screen */
+
+.wrappersecond{
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+    /* height: 200px; */
+}
+.card2 .st1{
+    margin-top: 90px;
+    color: black;
+    margin-right: 50px;
+}
+.card2 .st2{
+    margin-top: 90px;
+    color: black;
+    margin-right: 45px;
+}
+.card2 .st3{
+    margin-top: 90px;
+    color: black;
+    margin-right: 44px;
+}
+.card2 .st4{
+    margin-top: 90px;
+    color: black;
+    margin-right: 55px;
+}
+.card2 .st5{
+    margin-top: 90px;
+    color: black;
+    margin-right: 60px;
+}
+.card2 .st6{
+    margin-top: 90px;
+    color: black;
+    margin-right: 33px;
+}
+.card2 .st7{
+    margin-top: 90px;
+    color: black;
+    margin-right: 43px;
+}
+.card2 .st8{
+    margin-top: 90px;
+    color: black;
+    margin-right: 22px;
+}
+.card2 .st9{
+    margin-top: 90px;
+    color: black;
+    margin-right: 28px;
+}
+.card2 .st10{
+    margin-top: 90px;
+    color: black;
+    margin-right: 55px;
+}
+.card2 .st11{
+    margin-top: 90px;
+    color: black;
+    margin-right: 37px;
+}
+.card2 .st12{
+    margin-top: 90px;
+    color: black;
+    margin-right: 48px;
+}
+.card2 .st13{
+    margin-top: 90px;
+    color: black;
+    margin-right: 40px;
+}
+.card2 .st14{
+    margin-top: 195px;
+    color: black;
+    margin-right: 75px;
+}
+.card2 .st15{
+    margin-top: 195px;
+    color: black;
+    margin-right: 88px;
+}
+.card2 .st16{
+    margin-top: 195px;
+    color: black;
+    margin-right: 55px;
+}
+.card2 .st17{
+    margin-top: 195px;
+    color: black;
+    margin-right: 70px;
+}
+.card2 .st18{
+    margin-top: 195px;
+    color: black;
+    margin-right: 57px;
+}
+.card2 .st19{
+    margin-top: 195px;
+    color: black;
+    margin-right: 55px;
+}
+.card2 .st20{
+    margin-top: 195px;
+    color: black;
+    margin-right: 88px;
+}
+.card2 .st21{
+    margin-top: 195px;
+    color: black;
+    margin-right: 15px;
+}
+.card2 .st22{
+    margin-top: 195px;
+    color: black;
+    margin-right: 65px;
+}
+
+
+.cardswrapper2{
+    position: relative;
+    margin: 4rem 0;    
+}
+.cardswrapper2 button{
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: .8rem;
+    border-radius: 50%;
+    /* box-shadow: 1px 1px 8px rgba(0 0 0/ 20%); */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    /* transition: all 200ms linear; */
+    cursor: pointer;
+
+}
+.cardswrapper2 button:hover{
+    background-color: orange;
+}
+.cardswrapper2 button:active{
+    background-color: rgb(0, 183, 255);
+}
+.wrappersecond .cardswrapper2 .cards2 .card2 img{
+    width: 177px;
+    /* aspect-ratio: 1; */
+    max-width: 100%;
+    object-fit: cover;
+    height: 100px;
+    border-radius: 10px;
+    /* margin-left: 2px; */
+    /* transition: all 200ms linear; */
+}
+.prev2{
+    left: -1rem;
+   
+}
+.next2{
+    right: 0;
+}
+.cards2{
+    white-space: nowrap;
+    overflow-x: auto;
+    /* background-color: red; */
+    background-color: white;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+    margin-top: -50px;
+}
+.cards2::-webkit-scrollbar{
+    display: none;
+}
+.cards2 .card2{
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 130px;
+    background-color: white;
+}
+
+.cards2  .card2:not(:last-child){
+    margin-right: 14px;
+}
+.card2 > div{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    transition: all 200ms linear;
+}
+
+
+
+
+/* Explore your favourite places */
+.explore h3 {
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: -50px;
+    /* display: none; */
+}
+
+.explore p {
+    margin-left: 45px;
+}
+
+/* horizontal scrolling new */
+
+.wrappernew1 {
+    max-height: 500px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 40px;
+    border-radius: 10px;
+    /* margin-top: -55px; */
+    display: none;
+}
+
+.wrappernew1::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrappernew1 .item1 {
+    min-width: 180px;
+    height: 180px;
+    /* line-height: 110px; */
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+.wrappernew1 .item1 img {
+    width: 180px;
+    height: 120px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
+/* horizontal scrolling text */
+.wrappernew1 .item1 h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* Quick trip heading */
+.quicks h3 {
+    font-weight: bold;
+    margin-left: 62px;
+    margin-top: -50px;
+}
+
+.quicks p {
+    margin-left: 62px;
+}
+
+
+.button5 {
+    display: flex;
+}
+
+.button5 .romance {
+    display: flex;
+    border-radius: 1000px;
+    border-color: red;
+    width: 20px;
+    margin-left: 80px;
+    margin-right: 1px;
+    margin-top: 7px;
+}
+
+.button5 .icon {
+    margin-right: 8px;
+}
+
+.button5 .romance:hover {
+    color: #04AA6D;
+}
+
+.button5 .beach {
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.button5 .beach .icon2 {
+    margin-right: 8px;
+}
+
+.button5 .beach:hover {
+    color: #04AA6D;
+}
+
+.button5 .outdoor {
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 105px;
+    margin-top: 7px;
+}
+
+.button5 .outdoor .icon3 {
+    margin-right: 8px;
+}
+
+.button5 .outdoor:hover {
+    color: #04AA6D;
+}
+
+.button5 .country {
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 60px;
+    background-color: white;
+    color: #04AA6D;
+    border: 1px solid #04AA6D;
+    border-radius: 50px;
+    width: 107px;
+    height: 40px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+}
+
+.button5 .country .icon4 {
+    margin-right: 8px;
+}
+
+
+/* Quick and easy trip plan for big screen */
+
+.wrapperfour{
+    width: 90%;
+    max-width: 1280px;
+    /* margin: 0 auto; */
+    margin-top: -35px;
+    width: 1100;
+    margin-left: 55px;
+}
+.card3 .st1{
+    margin-top: 120px;
+    color: black;
+    margin-right: 55px;
+}
+.card3 .st2{
+    margin-top: 120px;
+    color: black;
+    margin-right: 55px;
+}
+.card3 .st3{
+    margin-top: 120px;
+    color: black;
+    margin-right: 59px;
+}
+.card3 .st4{
+    margin-top: 120px;
+    color: black;
+    margin-right: 55px;
+}
+.card3 .st5{
+    margin-top: 120px;
+    color: black;
+    margin-right: 48px;
+}
+.card3 .st6{
+    margin-top: 120px;
+    color: black;
+    margin-right: 63px;
+}
+.card3 .st7{
+    margin-top: 120px;
+    color: black;
+    margin-right: 40px;
+}
+.card3 .st8{
+    margin-top: 120px;
+    color: black;
+    margin-right: -2px;
+}
+.card3 .st9{
+    margin-top: 120px;
+    color: black;
+    margin-right: 38px;
+}
+.card3 .st10{
+    margin-top: 120px;
+    color: black;
+    margin-right: 50px;
+}
+.card3 .st11{
+    margin-top: 120px;
+    color: black;
+    margin-right: 37px;
+}
+.card3 .st12{
+    margin-top: 120px;
+    color: black;
+    margin-right: 48px;
+}
+.card3 .st13{
+    margin-top: 120px;
+    color: black;
+    margin-right: 40px;
+}
+.card3 .st14{
+    margin-top: 195px;
+    color: black;
+    margin-right: 75px;
+}
+.card3 .st15{
+    margin-top: 195px;
+    color: black;
+    margin-right: 88px;
+}
+.card3 .st16{
+    margin-top: 195px;
+    color: black;
+    margin-right: 55px;
+}
+.card3 .st17{
+    margin-top: 195px;
+    color: black;
+    margin-right: 70px;
+}
+.card3 .st18{
+    margin-top: 195px;
+    color: black;
+    margin-right: 57px;
+}
+.card3 .st19{
+    margin-top: 195px;
+    color: black;
+    margin-right: 55px;
+}
+.card3 .st20{
+    margin-top: 195px;
+    color: black;
+    margin-right: 88px;
+}
+.card3 .st21{
+    margin-top: 195px;
+    color: black;
+    margin-right: 15px;
+}
+.card3 .st22{
+    margin-top: 195px;
+    color: black;
+    margin-right: 65px;
+}
+
+
+.cardswrapper3{
+    position: relative;
+    margin: 4rem 0;   
+}
+.cardswrapper3 button{
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: .8rem;
+    border-radius: 50%;
+    /* box-shadow: 1px 1px 8px rgba(0 0 0/ 20%); */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    /* transition: all 200ms linear; */
+    cursor: pointer;
+
+}
+.cardswrapper3 button:hover{
+    background-color: orange;
+}
+.cardswrapper3 button:active{
+    background-color: rgb(0, 183, 255);
+}
+.wrapperfour .cardswrapper3 .cards3 .card3 img{
+    width: 175px;
+    /* aspect-ratio: 1; */
+    max-width: 100%;
+    object-fit: cover;
+    height: 130px;
+    border-radius: 10px;
+    /* margin-left: 2px; */
+    /* transition: all 200ms linear; */
+}
+.prev3{
+    left: -1rem;
+   
+}
+.next3{
+    right: 0;
+}
+.cards3{
+    white-space: nowrap;
+    overflow-x: auto;
+    /* background-color: red; */
+    background-color: white;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+    height: 160px;
+}
+.cards3::-webkit-scrollbar{
+    display: none;
+}
+.cards3 .card3{
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 155px;
+    background-color: white;
+}
+
+.cards3  .card3:not(:last-child){
+    margin-right: 14px;
+}
+.card3 > div{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    transition: all 200ms linear;
+}
+
+
+/* Quick trip horizontal scroll */
+
+.wrapper4 {
+    max-height: 500px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 57px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 1150px;
+    display: none;
+}
+
+.wrapper4::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper4 .itemnew {
+    min-width: 180px;
+    height: 180px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+.wrapper4 .itemnew img {
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.wrapper4 .itemnew h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* Get inspiration for your next trip */
+
+.inspire1 h3 {
+    font-weight: bold;
+    margin-left: 55px;
+   margin-top: -45px;
+}
+
+/* Get inspiration for your next trip for big screen */
+
+.wrapperfive{
+    width: 90%;
+    max-width: 1280px;
+    /* margin: 0 auto; */
+    margin-top: -40px;
+    margin-left: 52px;
+}
+.card5 .st1 {
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+    margin-right: 105px;
+    /* margin-left: 1000PX; */
+    font-size: 25px;
+}
+.card5 .st1para{
+    margin-top: 240px;
+    text-align: center;
+    margin-right: 95px;
+}
+.card5 .st2{
+    margin-top: 260px;
+    color: black;
+    margin-right: -10px;
+    width: 288px;
+    font-size: 15px;
+}
+.card5 .st2para p{
+    margin-top: 290px;
+    color: grey;
+    font-size: 10px;
+    width: 650px;
+    margin-right: -18px;
+}
+.card5 .st3{
+    margin-top: 260px;
+    color: black;
+    margin-right: -2px;
+    font-size: 15px;
+}
+.card5 .st3para p{
+    margin-top: 290px;
+    color: grey;
+    font-size: 10px;
+    /* margin-left: 60px; */
+    margin-right: -14px;
+    width: 650px;
+}
+.card5 .st4{
+    margin-top: 260px;
+    color: black;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.card5 .st4para p{
+    margin-top: 290px;
+    color: grey;
+    font-size: 10px;
+    /* margin-right: -15px; */
+    width: 650px;
+    margin-left: 13px;
+}
+.card5 .st5{
+    margin-top: 260px;
+    color: black;
+    margin-right: 7px;
+    font-size: 15px;
+}
+.card5 .st5para p{
+    margin-top: 290px;
+    color: grey;
+    font-size: 10px;
+    width: 650px;
+    margin-left: 21px;
+}
+
+.cardswrapper5{
+    position: relative;
+    margin: 4rem 0;   
+}
+.cardswrapper5 button{
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: .8rem;
+    border-radius: 50%;
+    /* box-shadow: 1px 1px 8px rgba(0 0 0/ 20%); */
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    z-index: 1;
+    /* transition: all 200ms linear; */
+    cursor: pointer;
+
+}
+.cardswrapper5 button:hover{
+    background-color: orange;
+}
+.cardswrapper5 button:active{
+    background-color: rgb(0, 183, 255);
+}
+.wrapperfive .cardswrapper5 .cards5 .card5 img{
+    width: 275px;
+    /* aspect-ratio: 1; */
+    max-width: 100%;
+    object-fit: cover;
+    height: 260px;
+    border-radius: 10px;
+    /* margin-left: 2px; */
+    /* transition: all 200ms linear; */
+}
+.wrapperfive .cardswrapper5 .cards5 .card5 .bigimg{
+    width: 555px;
+    height: 340px;
+}
+.prev5{
+    left: -1rem;
+   
+}
+.next5{
+    right: 0;
+}
+.cards5{
+    white-space: nowrap;
+    overflow-x: auto;
+    /* background-color: red; */
+    background-color: white;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+    height: 360px;
+}
+.cards5::-webkit-scrollbar{
+    display: none;
+}
+.cards5 .card5{
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 340px;
+    background-color: white;
+}
+
+.cards5  .card5:not(:last-child){
+    margin-right: 14px;
+}
+.card5 > div{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    transition: all 200ms linear;
+}
+
+
+
+
+
+
+/* Get inspiration for your next trip */
+
+.wrapper33 {
+    max-height: 5000px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+    display: none;
+}
+
+.wrapper33::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper33 .inspireitem {
+    min-width: 170px;
+    height: 180px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: 97px;
+    border-radius: 10px;
+}
+
+
+.wrapper33 .inspireitem1 {
+    min-width: 550px;
+    height: 340px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: -70px;
+    border-radius: 10px;
+}
+
+
+.wrapper33 .inspireitem1 img {
+    width: 555px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+
+.wrapper33 .inspireitem img {
+    width: 265px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.wrapper33 .inspireitem h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.wrapper33 .inspireitem1 h4 {
+    /* position:inherit; */
+    /* top: 2335px;  */
+    /* left: 40px; */
+    /* margin-left: 25px; */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -80px;
+    margin-left: 2px;
+}
+
+.wrapper33 .inspireitem1 p {
+    color: white;
+    /* margin-top: -4px; */
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.wrapper33 .inspireitem .orlando h6 {
+    inline-size: 220px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.wrapper33 .inspireitem p {
+    inline-size: 220px;
+    text-align: left;
+    /* font-weight: bold; */
+    margin-top: 1px;
+    margin-left: 4px;
+    font-size: 15px;
+}
+
+
+/* All places */
+
+.templemasjid .favouriteplace{
+    margin-top: -60px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.favou
+.templemasjid p {
+    margin-left: 50px;
+}
+
+.tempselect {
+    display: flex;
+}
+
+.tempselect .khrist {
+    display: flex;
+    border-radius: 1000px;
+    border-color: red;
+    width: 20px;
+    margin-left: 80px;
+    margin-right: 1px;
+    margin-top: 7px;
+}
+
+.tempselect .iconnew {
+    margin-right: 8px;
+}
+
+.tempselect .khrist:hover {
+    color: #04AA6D;
+}
+
+.tempselect .muslim {
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.tempselect .muslim .iconnew2 {
+    margin-right: 8px;
+}
+
+.tempselect .muslim:hover {
+    color: #04AA6D;
+}
+
+.tempselect .park {
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 105px;
+    margin-top: 7px;
+}
+
+.tempselect .park .iconnew3 {
+    margin-right: 8px;
+}
+
+.tempselect .park:hover {
+    color: #04AA6D;
+}
+
+.tempselect .hindu {
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 45px;
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 50px;
+    width: 107px;
+    height: 40px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+}
+
+.tempselect .hindu .iconnew4 {
+    margin-right: 8px;
+}
+
+/* hindu muslim church */
+.wrapper55 {
+    max-height: 500px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 57px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 1080px;
+    display: none;
+}
+
+.wrapper55::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper55 .religion {
+    min-width: 260px;
+    height: 230px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+.wrapper55 .religion img {
+    width: 260px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.wrapper55 .religion h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* .wrapper5 .religion .img2 h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+} */
+
+/*  img2 flag */
+.wrapper55 .religion .img2 h5 img {
+    width: 30px;
+    height: 19px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* Rating Places */
+.stay h3 {
+    margin-left: 47px;
+    font-weight: bold;
+}
+
+.stay p {
+    margin-left: 47px;
+}
+
+.star {
+    max-height: 500px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.star::-webkit-scrollbar {
+    width: 0;
+}
+
+.star .main {
+    height: 340px;
+    background-color: white;
+    width: 272px;
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 3px 0 gray;
+    margin-bottom: 20px;
+    margin-right: 12px;
+}
+
+.star .main .image img {
+    width: 272px;
+    height: 190px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.star .main .text1 {
+    margin-left: 5px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.star .main p {
+    margin-left: 3px;
+    color: grey;
+    margin-top: 5px;
+}
+
+
+
+.star .main .para2 {
+    display: flex;
+}
+
+.star .main .para2 p {
+    margin-left: 119px;
+    margin-top: 40px;
+    font-size: 13px;
+    margin-right: 1px;
+}
+
+.star .main .para2 .money {
+    margin-left: 5px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.star .main .para2 h5 {
+    margin-top: 41px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+/* visit your favourite temple */
+
+.border {
+    width: 1130px;
+    height: 280px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-left: 45px;
+    margin-top: 10px;
+
+
+}
+
+.border .round1 {
+    height: 70px;
+    width: 70px;
+    background-color: orange;
+    margin-top: 150px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-width: 1000px;
+}
+
+.border img {
+    height: 270px;
+    margin-top: -210px;
+    margin-left: 150px;
+}
+
+.border .txt {
+    height: 279px;
+    width: 330px;
+    background-color: rgb(36, 87, 255);
+    margin-left: 570px;
+    margin-top: -280px;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+.border .text1 h3 {
+    margin-left: 620px;
+    margin-top: -200px;
+    /* font-size: 20px; */
+    font-weight: bold;
+    color: white;
+}
+
+.border .text2 {
+    margin-left: 620px;
+    margin-top: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.border .btn2 {
+    margin-left: 620px;
+    margin-top: 10px;
+    width: 230px;
+    height: 35px;
+    border-radius: 10px;
+    color: rgb(36, 87, 255);
+    border: none;
+    text-align: center;
+}
+
+.border .imgair img {
+    height: 180px;
+    margin-left: 870px;
+}
+
+.border .imgcar img {
+    height: 100px;
+    margin-left: 960px;
+    margin-top: -20px;
+}
+
+.border .round2 {
+    height: 50px;
+    width: 50px;
+    margin-top: -260px;
+    margin-left: 90px;
+    border-radius: 50%;
+    background-color: purple;
+}
+
+.border .round3 {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: -60px;
+    margin-left: 170px;
+}
+
+.border .round4 {
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: 170px;
+    margin-left: 80px;
+}
+
+.border .round5 {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(159, 49, 67);
+    border-radius: 50%;
+    margin-top: -70px;
+    margin-left: 500px;
+}
+
+.border .round6 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-left: 450px;
+    margin-top: -110px;
+}
+
+/* Keep on planning */
+.plan {
+    width: 1130px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(25, 25, 88);
+    margin-top: 50px;
+}
+
+.footer .para {
+    color: grey;
+    margin-left: 390px;
+    padding-top: 50px;
+}
+
+.footer .follow {
+    color: white;
+    margin-left: 505px;
+    margin-top: -80px;
+    font-weight: bold;
+}
+
+.footer .linkedin {
+    color: white;
+    margin-left: 660px;
+    margin-top: -31px;
+}
+
+.footer .git {
+    color: white;
+    margin-left: 680px;
+    margin-top: -24px;
+}
+
+.footer .linkedin:hover {
+    color: yellow;
+}
+
+.footer .git:hover {
+    color: orange;
+}
+
+.footer .para2 {
+    color: grey;
+    margin-left: 470px;
+    margin-top: -39px;
+}
+
+.footer .para3 {
+    color: grey;
+    margin-left: 490px;
+    margin-top: -25px;
+}
+
+
+/*  Big screen Browse by property type  */
+
+.wrapper {
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-left: 65px;
+    margin-top: -40px;
+    /* height: 200px; */
+}
+
+.card .st1 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 88px;
+}
+
+.card .st2 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 63px;
+}
+
+.card .st3 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 84px;
+}
+
+.card .st4 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 88px;
+}
+
+.card .st5 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 88px;
+}
+
+.card .st6 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 78px;
+}
+
+.card .st7 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 73px;
+}
+
+.card .st8 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 35px;
+}
+
+.card .st9 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 55px;
+}
+
+.card .st10 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 62px;
+}
+
+.card .st11 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 88px;
+}
+
+.card .st12 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 88px;
+}
+
+.card .st13 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 88px;
+}
+
+.card .st14 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 75px;
+}
+
+.card .st15 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 88px;
+}
+
+.card .st16 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 55px;
+}
+
+.card .st17 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 70px;
+}
+
+.card .st18 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 57px;
+}
+
+.card .st19 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 55px;
+}
+
+.card .st20 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 88px;
+}
+
+.card .st21 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 15px;
+}
+
+.card .st22 {
+    margin-top: 195px;
+    color: black;
+    margin-right: 65px;
+}
+
+
+.cardswrapper {
+    position: relative;
+    margin: 4rem 0;
+}
+
+.cardswrapper button {
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: .8rem;
+    border-radius: 50%;
+    /* box-shadow: 1px 1px 8px rgba(0 0 0/ 20%); */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    /* transition: all 200ms linear; */
+    cursor: pointer;
+
+}
+
+.cardswrapper button:hover {
+    background-color: orange;
+}
+
+.cardswrapper button:active {
+    background-color: rgb(0, 183, 255);
+}
+
+.wrapper .cardswrapper .cards .card img {
+    width: 257px;
+    /* aspect-ratio: 1; */
+    max-width: 100%;
+    object-fit: cover;
+    height: 200px;
+    /* margin-left: 2px; */
+    /* transition: all 200ms linear; */
+}
+
+.prev {
+    left: -1rem;
+
+}
+
+.next {
+    right: 0;
+}
+
+.cards {
+    white-space: nowrap;
+    overflow-x: auto;
+    /* background-color: red; */
+    background-color: white;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+
+.cards .card {
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 240px;
+    background-color: white;
+}
+
+.cards .card:not(:last-child) {
+    margin-right: 14px;
+}
+
+.card>div {
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    transition: all 200ms linear;
+}
+
+
+
+
+
+/*---------- Media query --------*/
+
+/* min-400 & max-450px */
+
+@media (min-width:400px) and (max-width:425px) {
+
+    /* Navbar */
+    #navbar {
+        background-color: purple;
+        height: 400px;
+        width: 2000px;
+        overflow-y: hidden;
+    }
+
+    #navbar img {
+        width: 250px;
+        position: absolute;
+        top: 35px;
+        left: 22%;
+    }
+
+    #navbar ul {
+        margin-left: 470px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    #navbar ul li {
+        display: inline-block;
+        line-height: 80px;
+        margin-right: 40px;
+    }
+
+    #navbar ul li a {
+        position: relative;
+        color: white;
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .containerlang #selectlang {
+        float: right;
+        margin-right: 665px;
+        margin-top: -66px;
+    }
+
+
+    #navbar .dark {
+        margin-top: -70px;
+        color: white;
+        margin-left: 1050px;
+        font-size: 18px;
+    }
+
+    #navbar .signlog {
+        margin-top: -25px;
+        margin-left: 1390px;
+    }
+
+    #navbar .signlog #signin {
+        width: 60px;
+        height: 35px;
+        background-color: orange;
+        border-radius: 5px;
+        color: rgb(48, 48, 237);
+        border: none;
+
+    }
+
+    #navbar .signlog #signin:hover {
+        cursor: pointer;
+    }
+
+    #navbar .signlog #login {
+        margin-top: -8px;
+        background-color: rgb(23, 23, 231);
+        width: 60px;
+        height: 35px;
+        border-radius: 5px;
+        color: white;
+        border: none;
+    }
+
+    #navbar .signlog #login:hover {
+        cursor: pointer;
+    }
+
+    /* nav2 */
+
+    .nav2 {
+        display: flex;
+        margin-top: -133px;
+        margin-left: 90px;
+        width: 550px;
+    }
+
+    .nav2 .btn1 {
+        width: 210px;
+        height: 45px;
+        background-color: rgb(108, 58, 108);
+        margin-top: -170px;
+        border: 1px solid white;
+        border-radius: 30px;
+        color: white;
+        padding-right: 10px;
+        font-size: 16px;
+    }
+
+    .nav2 .btn1 .all {
+        margin-right: 10px;
+        font-size: 17px;
+    }
+
+    .nav2 .btn2 {
+        margin-top: -170px;
+        margin-left: 15px;
+        height: 45px;
+        width: 210px;
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-size: 16px;
+    }
+
+    .nav2 .btn2 .temple {
+        margin-right: 10px;
+        font-size: 17px;
+    }
+
+    .nav2 .btn3 {
+        margin-top: -170px;
+        margin-left: 15px;
+        height: 45px;
+        width: 210px;
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-size: 16px;
+    }
+
+    .nav2 .btn3 .masjid {
+        margin-right: 10px;
+        font-size: 17px;
+    }
+
+    .nav2 .btn4 {
+        margin-top: -170px;
+        margin-left: 15px;
+        height: 45px;
+        width: 240px;
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-size: 16px;
+        /* margin-right: 10px; */
+    }
+
+    .nav2 .btn4 .church {
+        margin-right: 10px;
+        font-size: 17px;
+    }
+
+    .nav2 .btn5 {
+        margin-top: -170px;
+        margin-left: 15px;
+        height: 45px;
+        width: 180px;
+        border: none;
+        background-color: transparent;
+        color: white;
+    }
+
+    .nav2 .btn5 .zoo {
+        margin-right: 10px;
+        font-size: 17px;
+    }
+
+
+    .find h1 {
+        margin-top: -60px;
+        margin-left: 570px;
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+        width: 500px;
+    }
+
+    .find h3 {
+        margin-top: 14px;
+        margin-left: 538px;
+        color: white;
+        font-size: 25px;
+        width: 590px;
+    }
+
+    /* Searchbar */
+    .search {
+        margin-left: 468px;
+        margin-top: 64px;
+        width: 723px;
+        height: 60px;
+        background-color: orange;
+        border-radius: 10px;
+    }
+
+    .inp {
+        width: 590px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 5px;
+        margin-left: 4px;
+        padding-left: 45px;
+        font-size: 15px;
+    }
+
+    .search .icn {
+        margin-left: 15px;
+        margin-top: -38px;
+        color: black;
+    }
+
+    .search .click {
+        margin-left: 600px;
+        margin-top: -36px;
+    }
+
+    .search .click #searchbtn {
+        width: 115px;
+        height: 49px;
+        background-color: rgb(24, 78, 255);
+        border-radius: 5px;
+        border: none;
+        color: white;
+
+    }
+
+    .secondbtn {
+        display: flex;
+        margin-top: -105px;
+        margin-left: 545px;
+        width: 650px;
+    }
+
+    .secondbtn .btn6 {
+        background-color: transparent;
+        border: none;
+        color: white;
+        margin-right: 60px;
+    }
+
+    .secondbtn .btn6 .trending {
+        margin-right: 10px;
+    }
+
+    .secondbtn .btn7 {
+        background-color: transparent;
+        border: none;
+        color: white;
+        margin-right: 70px;
+    }
+
+    .secondbtn .btn7 .recomend {
+        margin-right: 10px;
+    }
+
+    .secondbtn .btn8 {
+        background-color: transparent;
+        border: none;
+        color: white;
+        margin-right: 70px;
+    }
+
+    .secondbtn .btn8 .booking {
+        margin-right: 10px;
+    }
+
+    /* Wrapper big screen hide */
+    .wrapper {
+        display: none;
+    }
+
+
+    /* Wrapper for small devices */
+
+    /*Browse by property type */
+    /* top place */
+
+    .topplaces h3 {
+        font-weight: bold;
+        margin-left: 70px;
+        margin-top: 15px;
+        display: block;
+    }
+
+
+    /*scroll horizontal */
+
+    .wrapperfirst {
+        max-height: 500px;
+        border: 1px solid white;
+        display: flex;
+        overflow-x: auto;
+        margin-left: 60px;
+        margin-right: 30px;
+        border-radius: 20px;
+        margin-top: 25px;
+        width: 1490px;
+        /* display: none; */
+    }
+
+    .wrapperfirst::-webkit-scrollbar {
+        width: 0;
+    }
+    /* .wrapperfirst #bgch1 #pic1{
+        margin-left: -90px;
+    } */
+   
+    
+
+    .wrapperfirst .item {
+        min-width: 220px;
+        height: 190px;
+        line-height: 110px;
+        text-align: center;
+        background-color: white;
+        justify-content: space-between;
+        margin-right: 30px;
+        border-radius: 15px;
+    }
+
+    .wrapperfirst .item img {
+        width: 220px;
+        height: 140px;
+        border-radius: 15px;
+        /* margin-right: 0px; */
+    }
+
+    /* horizontal scrolling text */
+    .wrapperfirst .item h5 {
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+
+
+    /* Discover Odisha */
+    .discover {
+        background-color: rgb(37, 218, 238);
+        width: 1485px;
+        height: 180px;
+        margin-top: 130px;
+        margin-left: 65px;
+        border-radius: 10px;
+    }
+
+    .discover img {
+        width: 170px;
+        height: 150px;
+        border-radius: 10px;
+        margin-left: 21px;
+        margin-top: 14px;
+        transform: rotate(355deg);
+    }
+
+    .discover h4 {
+        margin-top: -70px;
+        margin-left: 230px;
+        font-weight: bold;
+    }
+
+    .discover p {
+        margin-left: 230px;
+        font-weight: 500;
+    }
+
+    .discover .explore {
+        margin-left: 1240px;
+        margin-top: -28px;
+        width: 90px;
+        height: 40px;
+        background-color: white;
+        border-radius: 20px;
+        padding-top: 7px;
+        padding-left: 18px;
+        border: 1px solid black;
+    }
+
+    .discover .explore:hover {
+        background-color: green;
+        color: white;
+        cursor: pointer;
+    }
+
+    /*container trending places */
+
+    .trend {
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .trends .img1 img {
+        width: 738px;
+        height: 330px;
+        border-radius: 15px;
+        margin-right: 17px;
+        margin-left: 1190px;
+    }
+
+    .trends .img2 img {
+        width: 738px;
+        height: 330px;
+        border-radius: 15px;
+    }
+
+    .trends {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .trends .img1 .top-left {
+        position: absolute;
+        top: 770px;
+        left: 10px;
+        margin-left: 70px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .trends .img1 .top-left img {
+        width: 28px;
+        height: 15px;
+        border-radius: 2px;
+        margin-left: 10px;
+        margin-top: -8px;
+        margin-bottom: 5px;
+        border: 1px solid white;
+    }
+
+    .trends .img2 .top-left {
+        position: absolute;
+        top: 770px;
+        left: 10px;
+        margin-left: 840px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .trends .img2 .top-left img {
+        width: 28px;
+        height: 15px;
+        margin-left: 50px;
+        margin-top: -64px;
+        margin-bottom: 6px;
+        border-radius: 5px;
+        border-style: none;
+        border: 1px solid white;
+    }
+
+    .row1 .column1 img {
+        width: 483px;
+        height: 295px;
+        border-radius: 15px;
+        margin-right: 17px;
+        margin-left: 1195px;
+
+    }
+
+    .row1 .column2 img {
+        width: 500px;
+        height: 295px;
+        border-radius: 15px;
+        margin-right: 15px;
+    }
+
+    .row1 .column3 img {
+        width: 483px;
+        height: 295px;
+        border-radius: 15px;
+        margin-left: 1px;
+    }
+
+    .row1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .row1 .column1 .top1 {
+        position: absolute;
+        top: 1115px;
+        left: 0px;
+        margin-left: 75px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .row1 .column1 .top1 img {
+        width: 28px;
+        height: 15px;
+        margin-left: 5px;
+        margin-top: -16px;
+        margin-bottom: 6px;
+        border-radius: 5px;
+        border-style: none;
+        border: 1px solid white;
+        margin-top: 5px;
+    }
+
+    .row1 .column2 .top2 {
+        position: absolute;
+        top: 1115px;
+        left: 0px;
+        margin-left: 570px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        text-shadow: rgb(12, 12, 12) 1px 0 20px;
+    }
+
+    .row1 .column2 .top2 img {
+        width: 30px;
+        height: 20px;
+        margin-left: 70px;
+        margin-top: -25px;
+        margin-bottom: 6px;
+        border-radius: 5px;
+        margin-top: -55px;
+        border-style: none;
+        border: 1px solid white;
+    }
+
+    .row1 .column3 .top3 {
+        position: absolute;
+        top: 1110px;
+        left: 0px;
+        margin-left: 1115px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .row1 .column3 .top3 img {
+        width: 28px;
+        height: 15px;
+        margin-left: 120px;
+        margin-top: -60px;
+        margin-bottom: 6px;
+        border-radius: 5px;
+        border-style: none;
+        border: 1px solid white;
+    }
+
+    .trend h3 {
+        font-weight: bold;
+    }
+}
+
+
+/* Explore your favourite place for small devices */
+
+/* Explore your favourite places */
+.explore h3 {
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: -35px;
+    display: block;
+}
+
+.explore p {
+    margin-left: 70px;
+}
+
+/* horizontal scrolling new */
+
+.wrappernew {
+    max-height: 500px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 65px;
+    /* margin-right: 800px; */
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 1490px;
+    /* display: block; */
+    background-color: white;
+}
+
+.wrappernew::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrappernew .item1 {
+    min-width: 180px;
+    height: 160px;
+    /* line-height: 110px; */
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.wrappernew .item1 img {
+    width: 180px;
+    height: 90px;
+    margin-left: 0px;
+    border-radius: 10px;
+   margin-right: 20px;
+}
+
+/* horizontal scrolling text */
+.wrappernew .item1 h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+/* Quick trip for small devices */
+
+/* Quick trip heading */
+.quick h3 {
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.quick p {
+    margin-left: 70px;
+    width: 700px;
+}
+
+
+.button {
+    display: flex;
+}
+
+.button .romance {
+    display: flex;
+    border-radius: 1000px;
+    border-color: red;
+    width: 20px;
+    margin-left: 80px;
+    margin-right: 1px;
+    margin-top: 7px;
+}
+
+.button .icon {
+    margin-right: 8px;
+}
+
+.button .romance:hover {
+    color: #04AA6D;
+}
+
+.button .beach {
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.button .beach .icon2 {
+    margin-right: 8px;
+}
+
+.button .beach:hover {
+    color: #04AA6D;
+}
+
+.button .outdoor {
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 105px;
+    margin-top: 7px;
+}
+
+.button .outdoor .icon3 {
+    margin-right: 8px;
+}
+
+.button .outdoor:hover {
+    color: #04AA6D;
+}
+
+.button .country {
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 70px;
+    background-color: white;
+    color: #04AA6D;
+    border: 1px solid #04AA6D;
+    border-radius: 50px;
+    width: 107px;
+    height: 40px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 3px;
+}
+
+.button .country .icon4 {
+    margin-right: 8px;
+}
+
+
+/* Quick trip horizontal scroll */
+
+.wrapper2 {
+    max-height: 500px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 65px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 1500px;
+}
+
+.wrapper2::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper2 .itemnew {
+    min-width: 180px;
+    height: 180px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+.wrapper2 .itemnew img {
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.wrapper2 .itemnew h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+/* Get inspiration for your next trip for small devices */
+
+/* Get inspiration for your next trip */
+
+.inspire h3 {
+    font-weight: bold;
+    margin-left: 53px;
+    margin-top: 1px;
+    width: 500px;
+}
+
+
+/* Get inspiration for your next trip */
+
+.wrapper3 {
+    max-height: 5000px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 48px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 1500px;
+}
+
+.wrapper3::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper3 .inspireitem {
+    min-width: 170px;
+    height: 180px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: 97px;
+    border-radius: 10px;
+}
+
+
+.wrapper3 .inspireitem1 {
+    min-width: 550px;
+    height: 340px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: -70px;
+    border-radius: 10px;
+}
+
+
+.wrapper3 .inspireitem1 img {
+    width: 555px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+
+.wrapper3 .inspireitem img {
+    width: 265px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.wrapper3 .inspireitem h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.wrapper3 .inspireitem1 h4 {
+    /* position:inherit; */
+    /* top: 2335px;  */
+    /* left: 40px; */
+    /* margin-left: 25px; */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -80px;
+    margin-left: 2px;
+}
+
+.wrapper3 .inspireitem1 p {
+    color: white;
+    /* margin-top: -4px; */
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.wrapper3 .inspireitem .orlando h6 {
+    inline-size: 220px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.wrapper3 .inspireitem p {
+    inline-size: 220px;
+    text-align: left;
+    /* font-weight: bold; */
+    margin-top: 1px;
+    margin-left: 4px;
+    font-size: 15px;
+}
+
+
+
+/* All your favourite top places for small devices */
+
+/* All places */
+
+.templemasjid h3 {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.templemasjid p {
+    margin-left: 50px;
+}
+
+.tempselect {
+    display: flex;
+}
+
+.tempselect .khrist {
+    display: flex;
+    border-radius: 1000px;
+    border-color: red;
+    width: 20px;
+    margin-left: 80px;
+    margin-right: 1px;
+    margin-top: 7px;
+}
+
+.tempselect .iconnew {
+    margin-right: 8px;
+}
+
+.tempselect .khrist:hover {
+    color: #04AA6D;
+}
+
+.tempselect .muslim {
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.tempselect .muslim .iconnew2 {
+    margin-right: 8px;
+}
+
+.tempselect .muslim:hover {
+    color: #04AA6D;
+}
+
+.tempselect .park {
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 105px;
+    margin-top: 7px;
+}
+
+.tempselect .park .iconnew3 {
+    margin-right: 8px;
+}
+
+.tempselect .park:hover {
+    color: #04AA6D;
+}
+
+.tempselect .hindu {
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+    width: 20px;
+    margin-left: 45px;
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 50px;
+    width: 107px;
+    height: 40px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+}
+
+.tempselect .hindu .iconnew4 {
+    margin-right: 8px;
+}
+
+/* hindu muslim church */
+.wrapper5 {
+    max-height: 500px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 1500px;
+}
+
+.wrapper5::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper5 .religion {
+    min-width: 260px;
+    height: 230px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+.wrapper5 .religion img {
+    width: 260px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.wrapper5 .religion h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* .wrapper5 .religion .img2 h5 {
+    margin-top: 10px;
+    margin-right: 10px;
+} */
+
+/*  img2 flag */
+.wrapper5 .religion .img2 h5 img {
+    width: 30px;
+    height: 19px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* Rating Places for small devices */
+
+/* Rating Places */
+.stay h3 {
+    margin-left: 47px;
+    font-weight: bold;
+}
+
+.stay p {
+    margin-left: 47px;
+}
+
+.star {
+    max-height: 500px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 1500px;
+}
+
+.star::-webkit-scrollbar {
+    width: 0;
+}
+
+.star .main {
+    height: 340px;
+    background-color: white;
+    width: 272px;
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 3px 0 gray;
+    margin-bottom: 20px;
+    margin-right: 12px;
+}
+
+.star .main .image img {
+    width: 272px;
+    height: 190px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.star .main .text1 {
+    margin-left: 5px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.star .main p {
+    margin-left: 3px;
+    color: grey;
+    margin-top: 5px;
+}
+.star .main .para2 {
+    display: flex;
+}
+
+.star .main .para2 p {
+    margin-left: 119px;
+    margin-top: 40px;
+    font-size: 13px;
+    margin-right: 1px;
+}
+
+.star .main .para2 .money {
+    margin-left: 5px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.star .main .para2 h5 {
+    margin-top: 41px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+
+/* Visit your favourite places for small devices */
+
+.border {
+    width: 1478px;
+    height: 280px;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-left: 55px;
+    margin-top: 10px;
+
+}
+
+.border .round1 {
+    height: 70px;
+    width: 70px;
+    background-color: orange;
+    margin-top: 150px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-width: 1000px;
+}
+
+.border img {
+    height: 270px;
+    margin-top: -210px;
+    margin-left: 150px;
+}
+
+.border .txt {
+    height: 279px;
+    width: 330px;
+    background-color: rgb(36, 87, 255);
+    margin-left: 570px;
+    margin-top: -280px;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+.border .text1 h3 {
+    margin-left: 620px;
+    margin-top: -200px;
+    /* font-size: 20px; */
+    font-weight: bold;
+    color: white;
+}
+
+.border .text2 {
+    margin-left: 620px;
+    margin-top: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.border .btn2 {
+    margin-left: 620px;
+    margin-top: 10px;
+    width: 230px;
+    height: 35px;
+    border-radius: 10px;
+    color: rgb(36, 87, 255);
+    border: none;
+    text-align: center;
+}
+
+.border .imgair img {
+    height: 180px;
+    margin-left: 1160px;
+}
+
+.border .imgcar img {
+    height: 100px;
+    margin-left: 960px;
+    margin-top: -20px;
+}
+
+.border .round2 {
+    height: 50px;
+    width: 50px;
+    margin-top: -260px;
+    margin-left: 90px;
+    border-radius: 50%;
+    background-color: purple;
+}
+
+.border .round3 {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: -60px;
+    margin-left: 170px;
+}
+
+.border .round4 {
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: 170px;
+    margin-left: 80px;
+}
+
+.border .round5 {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(159, 49, 67);
+    border-radius: 50%;
+    margin-top: -70px;
+    margin-left: 500px;
+}
+
+.border .round6 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-left: 450px;
+    margin-top: -110px;
+}
+
+/* Keep on planning */
+.plan {
+    width: 1130px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+

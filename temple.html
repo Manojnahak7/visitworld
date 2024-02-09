@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visitworld.com</title>
+  <link rel="icon" type="img/png" href="/img/travelicon.png">
+  <link rel="stylesheet" href="temp.css">
+  <!-- <script src="script.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="nav">
+    <img src="/img/logo.png" alt="">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <div class="containerlang">
+      <select name="select" id="selectlang" onchange="location = this.value;">
+        <option value="English">English</option>
+        <option value="English">हिंदी</option>
+        <option value="/templetranslate/odiatemp.html">ଓଡିଆ</option>
+      </select>
+    </div>
+
+
+
+    <div class="dark" id="mode"><i class="fa-solid fa-circle-half-stroke"></i></div>
+
+    <div class="signlog">
+      <button id="signin">Sign Up</button>
+      <button id="login">Login</button>
+    </div>
+  </div>
+  <div class="nav2">
+    <button class="btn1"><a href="login.html"><i class="all fa-solid fa-check-double"></i>All</a></button>
+    <button class="btn2"><i class="temple first fa-solid fa-gopuram"></i>Temple</button>
+    <button class="btn3"><i class="masjid fa-solid fa-mosque"></i>Masjid</button>
+    <button class="btn4"><i class="church fa-solid fa-church"></i>Church</button>
+    <button class="btn5"><i class="zoo fa-solid fa-shield-dog"></i>Zoo</button>
+  </div>
+
+  <div class="selectsearch1" id="navbar">
+    <div class="hero">
+      <div class="selector">
+        <div id="selectfield">
+          <p id="selecttext">Select Country</p>
+          <img src="/img/dropdownicon.png" alt="" id="arrowicon">
+        </div>
+        <ul id="list" class="hide">
+          <li class="options">
+            <img src="/img/coutryflag/afganistan.png" alt="">
+            <p>Afghanistan</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/albania.jpg" alt="">
+            <p>Albania</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/algeria.png" alt="">
+            <p>Algeria</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/argentina.jpg" alt="">
+            <p>Argentina</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/armenia.jpg" alt="">
+            <p>Armenia</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/australia.png" alt="">
+            <p>Australia</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/austria.png" alt="">
+            <p>Austria</p>
+          </li>
+
+          <li class="options">
+            <img src="/img/coutryflag/bangladesh.png" alt="">
+            <p>Bangladesh</p>
+          </li>
+
+          <li class="options">
+            <img src="/img/coutryflag/belgium.jpg" alt="">
+            <p>Belgium</p>
+          </li>
+
+          <li class="options">
+            <img src="/img/coutryflag/brazil.png" alt="">
+            <p>Brazil</p>
+          </li>
+
+
+          <li class="options">
+            <img src="/img/coutryflag/cambodia.png" alt="">
+            <p>Cambodia</p>
+          </li>
+
+          <li class="options">
+            <img src="/img/coutryflag/canada.png" alt="">
+            <p>Canada</p>
+          </li>
+
+          <li class="options">
+            <img src="/img/coutryflag/china.png" alt="">
+            <p>China</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/colombia.png" alt="">
+            <p>Colombia</p>
+          </li>
+
+          <li class="options">
+            <img src="/img/coutryflag/denmark.png" alt="">
+            <p>Denmark</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/france.png" alt="">
+            <p>France</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/germany.png" alt="">
+            <p>Germany</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/greece.png" alt="">
+            <p>Greece</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/iceland.png" alt="">
+            <p>Iceland</p>
+          </li>
+          <li class="options">
+            <img src="/img/India-flag-a4.jpg" alt="">
+            <p>India</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/indonesia-flag.png" alt="">
+            <p>Indonesia</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/italy.png" alt="">
+            <p>Italy</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/japan.png" alt="">
+            <p>Japan</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/korea.jpg" alt="">
+            <p>Korea</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/malaysia.jpg" alt="">
+            <p>Malaysia</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/maldives.png" alt="">
+            <p>Maldives</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/mexico.png" alt="">
+            <p>Mexico</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/namibia.png" alt="">
+            <p>Namibia</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/nepal.png" alt="">
+            <p>Nepal</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/newzland.jpg" alt="">
+            <p>New Zealand</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/oman.jpg" alt="">
+            <p>Oman</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/pakistan.jpg" alt="">
+            <p>Pakistan</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/philipine.png" alt="">
+            <p>Philippines</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/qatar.png" alt="">
+            <p>Qatar</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/russia.png" alt="">
+            <p>Russia</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/saudiarabia.png" alt="">
+            <p>Saudi Arabia</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/singapore.png" alt="">
+            <p>Singapore</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/southafrica.png" alt="">
+            <p>South Africa</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/srilanka.jpg" alt="">
+            <p>Sri Lanka</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/swizerland.png" alt="">
+            <p>Switzerland</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/tajakistan.jpg" alt="">
+            <p>Tajikistan</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/thailand.png" alt="">
+            <p>Thailand</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/turkey.png" alt="">
+            <p>Turkey</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/uganda.png" alt="">
+            <p>Uganda</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/ukraine.jpg" alt="">
+            <p>Ukraine</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/uae.png" alt="">
+            <p>UAE</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/uk.jpg" alt="">
+            <p>UK</p>
+          </li>
+          <li class="options">
+            <img src="/img/coutryflag/zimbabwe.png" alt="">
+            <p>Zimbabwe</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="searchbar1">
+      <input type="text" class="srch1" placeholder="Search temples, country name etc..">
+      <div class="srchicon1"><i class="fa-solid fa-magnifying-glass"></i> </div>
+      <div class="srchbtn1"><button id="srchb">Search</button></div>
+
+    </div>
+
+    <!-- temple select
+
+   <div class ="hero2">
+    <div class="selector2">
+      <div id="selectfield2">
+        <p id="selecttext2">Select Temple</p>
+        <img src="/img/dropdownicon.png" alt="" id="arrowicon2">
+      </div>
+      <ul id="list2" class="hide2">
+
+        <li class="options2">
+          <img src="/img/temple/jagannathicon.png" alt="">
+          <p>jagannath temple</p>
+        </li>
+        <li class="options2">
+          <img src="/img/temple/ramicon2.png" alt="">
+          <p>Ram temple</p>
+        </li>
+        <li class="options2">
+          <img src="/img/temple/krishnaicon.png" alt="">
+          <p>Krishna temple</p>
+        </li>
+        <li class="options2">
+          <img src="/img/temple/deviicon.png" alt="">
+          <p>Devi temple</p>
+        </li>
+
+        <li class="options2">
+          <img src="/img/temple/shivicon.png" alt="">
+          <p>Shiv temple</p>
+        </li>
+        <li class="options2">
+          <img src="/img/temple/nursinghaicon.png" alt="">
+          <p>Nrushingha temple</p>
+        </li>
+        <li class="options2">
+          <img src="/img/temple/lakshmiicon.png" alt="">
+          <p>Lakshmi temple</p>
+        </li>
+        <li class="options2">
+          <img src="/img/temple/balajiicon.png" alt="">
+          <p>Balaji temple</p>
+        </li>
+        <li class="options2">
+          <img src="/img/temple/hanumanicon.png" alt="">
+          <p>Hanuman temple</p>
+        </li>
+        <li class="options2">
+          <img src="/img/temple/ganeshicon.png" alt="">
+          <p>Ganesh temple</p>
+        </li>
+      </ul>
+    </div>
+  </div> -->
+  </div>
+
+  <!-- gallery slide -->
+
+  <div class="content1">
+    <div class="product">
+      <div class="smallimg">
+        <img src="/img/temple/angkorwat2.jpg" alt="" onclick="myFunction(this)">
+        <img src="img/temple/angkorwat3.jpg" alt="" onclick="myFunction(this)">
+        <img src="img/temple/angkorwat4.jpg" alt="" onclick="myFunction(this)">
+        <img src="img/temple/angkorwat5.jpg" alt="" onclick="myFunction(this)">
+        <img src="img/temple/angkorwat6.jpg" alt="" onclick="myFunction(this)">
+      </div>
+      <div class="imgcontainer">
+        <img src="/img/temple/Angkor.jpg" alt="" id="bigimg">
+      </div>
+    </div>
+    <h3>Angkor Wat</h3>
+    <p class="paragraph1"><strong>Angkor</strong> Wat is a Hindu-Buddhist temple complex in Cambodia, originally built
+      as a Hindu temple
+      dedicated to the
+      god Vishnu during the 12th century. It later transformed into a Buddhist temple. The temple is renowned for its
+      grand architecture, including a moat and outer wall, three rectangular galleries, and a central quincunx of
+      towers. It is admired for its extensive bas-reliefs and numerous devatas adorning its walls. The modern name
+      Angkor Wat means "Temple City" in Khmer. The original name of the temple was Vrah Visnuuloka or Parama Visnuuloka,
+      meaning "the sacred dwelling of Vishnu." <a href="#">read more..</a></p>
+    <!-- <div class="icn1">
+        <i class="fa-solid fa-location-dot"></i>
+      </div> -->
+  </div>
+  <div class="content2">
+    <div class="product2">
+      <div class="smallimg2">
+        <img src="/img/temple/swaminarayannewjersey.jpg" alt="" onclick="myFunction2(this)">
+        <img src="img/temple/swaminarayannewjersey2.jpg" alt="" onclick="myFunction2(this)">
+        <img src="img/temple/swaminarayannewjersey3.jpg" alt="" onclick="myFunction2(this)">
+        <img src="img/temple/swaminarayannewjersey4.jpeg" alt="" onclick="myFunction2(this)">
+        <img src="img/temple/swaminarayannewjersey5.jpg" alt="" onclick="myFunction2(this)">
+      </div>
+      <div class="imgcontainer2">
+        <img src="/img/temple/swaminaraynnewjerseybig.jpg" alt="" id="bigimg2">
+      </div>
+    </div>
+    <h3>Swaminarayan Akshardham (New Jersey)</h3>
+    <p class="paragraph2">The <strong>BAPS Shri Swaminarayan Mandir</strong> in Robbinsville is a Hindu place of worship
+      built by the
+      BAPS Swaminarayan Sanstha and consecrated by Pramukh Swami Maharaj. Constructed of hand-carved Italian Carrara
+      marble, Indian pink stone, and limestone, it follows guidelines outlined in ancient Vedas, or Hindu scriptures.
+      The mandir is open daily to visitors and for worship (darshan), and the complex also includes a congregation
+      hall.The Akshardham mandir, inaugurated on October 8, 2023, is the world's 2nd largest Hindu temple, standing at
+      191 feet (58 m) high. It is located 62 miles (99 km) south of New York City. <a href="#">read more..</a></p>
+  </div>
+
+  <!-- Slide three -->
+  <div class="content3">
+    <div class="product3">
+      <div class="smallimg3">
+        <img src="/img/temple/Prem Mandir.jpg" alt="" onclick="myFunction3(this)">
+        <img src="img/temple/premmandir2.jpg" alt="" onclick="myFunction3(this)">
+        <img src="img/temple/premmandir4.jpg" alt="" onclick="myFunction3(this)">
+        <img src="img/temple/premmandir5.jpg" alt="" onclick="myFunction3(this)">
+        <img src="img/temple/premmandir6.jpg" alt="" onclick="myFunction3(this)">
+      </div>
+      <div class="imgcontainer3">
+        <img src="/img/temple/premmandir3.jpg" alt="" id="bigimg3">
+      </div>
+    </div>
+    <h3>Prem Mandir, Vrindavan</h3>
+    <p class="paragraph3"><strong>Prem Mandir</strong> is a Hindu temple in Vrindavan, Uttar Pradesh, India, dedicated
+      to Radha Krishna
+      and Sita Ram. Established by Jagadguru Shri Kripalu Ji Maharaj, it is maintained by Jagadguru Kripalu Parishat.
+      The temple complex covers 22 hectares and features depictions of four leelas of Shri Krishna. Construction started
+      in 2001, with the inauguration in 2012 at a cost of 150 crore rupees. The main temple has life-size
+      depictions of Radha Krishna on the first level and Sita Ram on the second level. Adjacent to the temple, a large
+      satsang hall is being constructed to accommodate 25,000 people. The complex also includes beautiful gardens and
+      fountains. <a href="#">read more..</a></p>
+  </div>
+
+  <!-- Slide four -->
+  <div class="content4">
+    <div class="product4">
+      <div class="smallimg4">
+        <img src="/img/temple/besakihindonesia1.jpg" alt="" onclick="myFunction4(this)">
+        <img src="img/temple/besakihindonesia2.jpg" alt="" onclick="myFunction4(this)">
+        <img src="img/temple/besakihindonesia3.jpg" alt="" onclick="myFunction4(this)">
+        <img src="img/temple/besakihindonesia4.jpg" alt="" onclick="myFunction4(this)">
+        <img src="img/temple/besakihindonesia5.jpg" alt="" onclick="myFunction4(this)">
+      </div>
+      <div class="imgcontainer4">
+        <img src="/img/temple/Besakih Temple.jpg" alt="" id="bigimg4">
+      </div>
+    </div>
+    <h3>Besakih Temple</h3>
+    <p class="paragraph4"><strong>Besakih Temple</strong>, also known as Pura Besakih, is a significant pura (temple)
+      complex located in
+      the village of Besakih on the slopes of Mount Agung in eastern Bali, Indonesia. It holds great importance in
+      Balinese Hinduism and is considered the largest and holiest temple on the island. The temple complex consists of
+      23 separate but interconnected temples, with Pura Penataran Agung being the largest and most important among them.
+      The temple is constructed on six levels, terraced up the slope, and features a candi bentar (split gateway) at the
+      entrance, leading to the Kori Agung, which serves as the gateway to the second courtyard. <a href="#">read
+        more..</a></p>
+  </div>
+
+  <!-- Slide five -->
+  <div class="content5">
+    <div class="product5">
+      <div class="smallimg5">
+        <img src="/img/temple/jagannathpuri4.jpg" alt="" onclick="myFunction5(this)">
+        <img src="img/temple/jagannathpuri3.jpg" alt="" onclick="myFunction5(this)">
+        <img src="img/temple/jagannathpuri5.jpg" alt="" onclick="myFunction5(this)">
+        <img src="img/temple/jagannathpuri6.png" alt="" onclick="myFunction5(this)">
+        <img src="img/temple/jagannathpuri7.jpg" alt="" onclick="myFunction5(this)">
+      </div>
+      <div class="imgcontainer5">
+        <img src="/img/temple/jagannathpuri1.jpg" alt="" id="bigimg5">
+      </div>
+    </div>
+    <h3>Jagannath Temple, Puri</h3>
+    <p class="paragraph5">The <strong>Jagannath Temple</strong> in Puri, Odisha, is indeed a significant Hindu temple
+      dedicated to
+      Jagannath, a form of Vishnu. It is renowned for its annual Ratha Yatra, or chariot festival, during which the
+      deities are pulled on elaborately decorated chariots. The temple's architecture and rituals hold deep spiritual
+      and cultural significance, attracting devotees from various Hindu traditions. The temple is also associated with
+      several prominent saints and scholars in Hinduism, further enhancing its religious importance.<a
+        href="#">readmore..</a>
+    </p>
+  </div>
+
+
+  <!--- Top 20 temples -->
+  <div class="toptemple">
+    <h3>Top 20 temples</h3>
+    <p>World's top 20 best temples for your vacation.</p>
+  </div>
+  <div class="wrapper">
+    <div class="cardswrapper">
+      <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+      <div class="cards">
+        <div class="card">
+          <img src="/img/temple/Angkor.jpg" alt="">
+          <div class="st1">
+            <strong>Angkor Wat</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/swaminarayannewjersey.jpg" alt="">
+          <div class="st2">
+            <strong>Swaminarayan Akshardham</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/ranganathswamy1.jpg" alt="">
+          <div class="st3">
+            <strong>Ranganathaswamy</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/srilakshminarayan1.jpg" alt="">
+          <div class="st4">
+            <strong>Sri Lakshmi Narayani</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/chhatrapurtemple1.jpg" alt="">
+          <div class="st5">
+            <strong>Chhatarpur</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/bapsdwamidelhi.jpg" alt="">
+          <div class="st6">
+            <strong>Swaminarayan Akshardham</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/Prem Mandir.jpg" alt="">
+          <div class="st7">
+            <strong>Prem Mandir</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/besakihindonesia1.jpg" alt="">
+          <div class="st8">
+            <strong>Besakih</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/Statue of Equality.jpg" alt="">
+          <div class="st9">
+            <strong>Statue of Equality</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/belurmath.jpg" alt="">
+          <div class="st10">
+            <strong>Belur Math</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/natrajtemple1.jpg" alt="">
+          <div class="st11">
+            <strong>Nataraja</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/prambanan.jpg" alt="">
+          <div class="st12">
+            <strong>Prambanan</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/Brihadisvara Temple.jpg" alt="">
+          <div class="st13">
+            <strong>Brihadisvara</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/arunachalesvaratemple.jpg" alt="">
+          <div class="st14">
+            <strong>Arunachalesvara</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/Dakshineswar Kali Temple.jpeg" alt="">
+          <div class="st15">
+            <strong>Dakshineswar Kali</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/Varadharaja Perumal Temple.jpg" alt="">
+          <div class="st16">
+            <strong>Varadharaja Perumal</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/Rajagopalaswamy Temple.jpg" alt="">
+          <div class="st17">
+            <strong>Rajagopalaswamy</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/Ekambareswarar Temple.jpg" alt="">
+          <div class="st18">
+            <strong>Ekambareswarar</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/Sri Thyagaraja Temple.jpg" alt="">
+          <div class="st19">
+            <strong>Thyagaraja</strong>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/temple/vaishnava nambi.jpeg" alt="">
+          <div class="st20">
+            <strong>Vaishnava Nambi</strong>
+          </div>
+        </div>
+
+      </div>
+      <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </div>
+
+  <!---Most popular temples in india -->
+  <div class="mostpopular">
+    <h3>Most popular temples in india</h3>
+    <p>famous temples in india by visitors choice.</p>
+  </div>
+
+  <div class="wrapper2">
+    <div class="cardswrapper2">
+      <button class="prev2"><i class="fa-solid fa-arrow-left"></i></button>
+      <div class="cards2">
+        <div class="card2">
+          <img src="/img/temple/kedarnathtemple.jpg" alt="">
+          <div class="st1">
+            <strong>Kedarnath</strong>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="/img/temple/badrinath.jpg" alt="">
+          <div class="st2">
+            <strong>Badrinath</strong>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="/img/temple/rameshwaramtemple.jpg" alt="">
+          <div class="st3">
+            <strong>Rameswaram</strong>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="/img/temple/jagannathpuri3.jpg" alt="">
+          <div class="st4">
+            <strong>Jagannath</strong>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="/img/temple/Dwarkadhish.jpg" alt="">
+          <div class="st5">
+            <strong>Dwarkadhish</strong>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="/img/temple/virupakshatemple.jpg" alt="">
+          <div class="st6">
+            <strong>Sri Virupaksha</strong>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="/img/temple/brahmajitemple.jpg" alt="">
+          <div class="st7">
+            <strong>Brahmaji Temple</strong>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="/img/temple/kashibvishwanath.jpg" alt="">
+          <div class="st8">
+            <strong>Kashi Vishwanath</strong>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="/img/temple/lingaraja.jpg" alt="">
+          <div class="st9">
+            <strong>Lingaraja</strong>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="/img/temple/amarnathcavetemple.jpg" alt="">
+          <div class="st10">
+            <strong>Amarnath Cave</strong>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="/img/temple/amarnathcavetemple.jpg" alt="">
+          <div class="st10">
+            <strong>Amarnath Cave</strong>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="/img/temple/taratarinitemple.jpg" alt="">
+          <div class="st11">
+            <strong>Tara tarini</strong>
+          </div>
+        </div>
+
+      </div>
+      <button class="next2"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </div>
+
+  <!--- Footer -->
+  <div class="footer">
+    <div class="compinfo"><Strong>About Visitworld</Strong></div>
+    <div class="comppara">
+      <p>Here you can find worlds most popular places, temples, masijds, church and much more. With booking hotels and
+        buses, flights, trains and more.</p>
+    </div>
+    <div class="logo"><img src="/img/travelworldvisitnew.png" alt=""></div>
+    <div class="follow"><strong>Contact us</strong></div>
+    <div class="tarun">
+      <h6>Tarun : +91 8249390690</h6>
+      <div class="link1">
+        <button class="linkedin1"><a
+            href="https://www.linkedin.com/in/tarun-kumar-behera-228b3b242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+              class="fa-brands fa-linkedin"></i></buttton>
+            <button class="insta1"><a href="https://www.instagram.com/_im_tarun_7?igsh=dTlsMDJrOTJwaWpj"><i
+                  class="fa-brands fa-instagram"></i></a></button>
+            <button class="facebook1"><a
+                href="https://www.facebook.com/profile.php?id=100079983060758&mibextid=ZbWKwL"><i
+                  class="fa-brands fa-facebook-f"></i></a></button>
+      </div>
+    </div>
+    <div class="manoj">
+      <h6>Manoj : +91 6371804624</h6>
+      <div class="link2">
+        <button class="linkedin2"><a
+            href="https://www.linkedin.com/in/manoj-nahak-0721b2192?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+              class="fa-brands fa-linkedin"></i></a></button>
+        <button class="insta2"><a href="https://www.instagram.com/manojnahakofficial?igsh=cXFkMG55MWpjMmYz"><i
+              class="fa-brands fa-instagram"></i></a></button>
+        <button class="facebook2"><a href="https://www.facebook.com/manoj.nahak.5891004?mibextid=ZbWKwL"><i
+              class="fa-brands fa-facebook-f"></i></a></button>
+      </div>
+    </div>
+    <div class="vivek">
+      <h6>Vivekananda : +91 9348957674</h6>
+      <div class="link3">
+        <button class="linkedin3"><a
+            href="https://www.linkedin.com/in/vivekananda-panda-9b4b33203?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+              class="fa-brands fa-linkedin"></i></a></button>
+        <button class="insta3"><a href=""><i class="fa-brands fa-instagram"></i></a></button>
+        <button class="facebook3"><a href=""><i class="fa-brands fa-facebook-f"></i></a></button>
+      </div>
+    </div>
+    <div class="popularplace1"><strong>Popular Places</strong> </div>
+    <div class="imgnew1"><img src="/img/country/londonbridge.jpg" alt="">
+      <img src="/img/country/kedarnath.jpg" alt="">
+      <img src="/img/country/southafrica.jpg" alt="">
+    </div>
+    <div class="imgnew2"><img src="/img/country/tajmahal.jpg" alt="">
+      <img src="/img/country/malaysia.jpg" alt="">
+      <img src="/img/country/pakistan.jpg" alt="">
+    </div>
+    <div class="imgnew3"><img src="/img/country/southafrica.jpg" alt="">
+      <img src="/img/country/church.jpg" alt="">
+      <img src="/img/country/dubai.jpg" alt="">
+    </div>
+    <div class="copyright">Copyright &copy; Visitworld.com &trade; . All rights reserved.</div>
+  </div>
+
+
+  <script>
+    let selectfield = document.getElementById("selectfield");
+    let selecttext = document.getElementById("selecttext");
+    let options = document.getElementsByClassName("options");
+    let list = document.getElementById("list");
+    let arrowicon = document.getElementById("arrowicon");
+
+
+    selectfield.onclick = function () {
+      list.classList.toggle("hide");
+      arrowicon.classList.toggle("rotate");
+    }
+
+    for (option of options) {
+      option.onclick = function () {
+        selecttext.innerHTML = this.textContent;
+        list.classList.toggle("hide");
+        arrowicon.classList.toggle("rotate");
+
+      }
+    }
+
+    //Gallery Slide 
+    function myFunction(smallimg) {
+      let fullimg = document.getElementById("bigimg");
+      fullimg.src = smallimg.src;
+    }
+
+    // slide second
+    function myFunction2(smallimg2) {
+      let fullimg2 = document.getElementById("bigimg2");
+      fullimg2.src = smallimg2.src;
+    }
+    // slide three
+    function myFunction3(smallimg3) {
+      let fullimg3 = document.getElementById("bigimg3");
+      fullimg3.src = smallimg3.src;
+    }
+
+    // slide four
+    function myFunction4(smallimg4) {
+      let fullimg4 = document.getElementById("bigimg4");
+      fullimg4.src = smallimg4.src;
+    }
+    // slide five
+    function myFunction5(smallimg5) {
+      let fullimg5 = document.getElementById("bigimg5");
+      fullimg5.src = smallimg5.src;
+    }
+
+    // Top 20 temples
+    const cards = document.querySelector(".cards"),
+      allCards = document.querySelectorAll(".card"),
+      buttons = document.querySelectorAll(".cardswrapper button"),
+      prevBtn = document.querySelector(".prev"),
+      nextBtn = document.querySelector(".next");
+
+    cards.addEventListener("wheel", (event) => {
+      if (event.deltaY > 0) {
+        event.currentTarget.scrollLeft += event.currentTarget.clientWidth;
+
+      } else {
+        event.currentTarget.scrollLeft -= event.currentTarget.clientWidth;
+      }
+    });
+    buttons.forEach((button) => {
+      button.addEventListener("click", (event) => {
+        if (event.currentTarget.classList.contains("prev")) {
+          cards.scrollLeft -= cards.clientWidth;
+        } else {
+          cards.scrollLeft += cards.clientWidth;
+        }
+      });
+    });
+    const btnsFunction = () => {
+      if (cards.scrollLeft === 0) {
+        // if(cards.scrollLeft === cards.scrollWidth){
+        prevBtn.style.display = "none";
+      } else {
+        prevBtn.style.display = "unset";
+
+      }
+
+      if (cards.scrollLeft + cards.clientWidth >= cards.scrollWidth - 1) {
+        nextBtn.style.display = "none";
+      } else {
+        nextBtn.style.display = "unset";
+      }
+
+      console.log(cards.scrollLeft, cards.clientWidth, cards.scrollWidth);
+    };
+
+    cards.addEventListener("scroll", btnsFunction);
+    window.addEventListener("load", btnsFunction);
+
+    // Sticky Navbar 
+    window.onscroll = function () { myFunction7() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction7() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+
+    // Most popular temples in india
+    const cards2 = document.querySelector(".cards2"),
+      allCards2 = document.querySelectorAll(".card2"),
+      buttons2 = document.querySelectorAll(".cardswrapper2 button"),
+      prevBtn2 = document.querySelector(".prev2"),
+      nextBtn2 = document.querySelector(".next2");
+
+    cards2.addEventListener("wheel", (event) => {
+      if (event.deltaY > 0) {
+        event.currentTarget.scrollLeft += event.currentTarget.clientWidth;
+
+      } else {
+        event.currentTarget.scrollLeft -= event.currentTarget.clientWidth;
+      }
+    });
+    buttons2.forEach((button) => {
+      button.addEventListener("click", (event) => {
+        if (event.currentTarget.classList.contains("prev2")) {
+          cards2.scrollLeft -= cards2.clientWidth;
+        } else {
+          cards2.scrollLeft += cards2.clientWidth;
+        }
+      });
+    });
+    const btnsFunction2 = () => {
+      if (cards2.scrollLeft === 0) {
+        // if(cards.scrollLeft === cards.scrollWidth){
+        prevBtn2.style.display = "none";
+      } else {
+        prevBtn2.style.display = "unset";
+
+      }
+
+      if (cards2.scrollLeft + cards2.clientWidth >= cards2.scrollWidth - 1) {
+        nextBtn2.style.display = "none";
+      } else {
+        nextBtn2.style.display = "unset";
+      }
+
+      console.log(cards2.scrollLeft, cards2.clientWidth, cards2.scrollWidth);
+    };
+
+    cards2.addEventListener("scroll", btnsFunction2);
+    window.addEventListener("load", btnsFunction2);
+  </script>
+</body>
+
+</html>

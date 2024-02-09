@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    height: 50px;
+    width: 100%;
+    background-color: purple;
+}
+.bus{
+    color: red;
+    font-size: 30px;
+}

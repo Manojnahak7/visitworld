@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/try.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper44">
+        <div class="cardswrapper44">
+            <button class="prev44"><i class="fa-solid fa-arrow-left"></i></button>
+            <div class="cards44">
+                <div class="card44">
+                    <img src="/img/temple/kedarnathtemple.jpg" alt="">
+                    <div class="st1">
+                        <strong>Kedarnath</strong>
+                    </div>
+                </div>
+                <div class="card44">
+                    <img src="/img/temple/badrinath.jpg" alt="">
+                    <div class="st2">
+                        <strong>Badrinath</strong>
+                    </div>
+                </div>
+                <div class="card44">
+                    <img src="/img/temple/rameshwaramtemple.jpg" alt="">
+                    <div class="st3">
+                        <strong>Rameswaram</strong>
+                    </div>
+                </div>
+                <div class="card44">
+                    <img src="/img/temple/jagannathpuri3.jpg" alt="">
+                    <div class="st4">
+                        <strong>Jagannath</strong>
+                    </div>
+                </div>
+                <div class="card44">
+                    <img src="/img/temple/Dwarkadhish.jpg" alt="">
+                    <div class="st5">
+                        <strong>Dwarkadhish</strong>
+                    </div>
+                </div>
+                <div class="card44">
+                    <img src="/img/temple/virupakshatemple.jpg" alt="">
+                    <div class="st6">
+                        <strong>Sri Virupaksha</strong>
+                    </div>
+                </div>
+                <div class="card44">
+                    <img src="/img/temple/brahmajitemple.jpg" alt="">
+                    <div class="st7">
+                        <strong>Brahmaji Temple</strong>
+                    </div>
+                </div>
+                <div class="card44">
+                    <img src="/img/temple/kashibvishwanath.jpg" alt="">
+                    <div class="st8">
+                        <strong>Kashi Vishwanath</strong>
+                    </div>
+                </div>
+                <div class="card44">
+                    <img src="/img/temple/lingaraja.jpg" alt="">
+                    <div class="st9">
+                        <strong>Lingaraja</strong>
+                    </div>
+                </div>
+                <div class="card44">
+                    <img src="/img/temple/amarnathcavetemple.jpg" alt="">
+                    <div class="st10">
+                        <strong>Amarnath Cave</strong>
+                    </div>
+                </div>
+
+            </div>
+            <button class="next44"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <script>
+
+        const cards44 = document.querySelector(".cards44"),
+            allCards44 = document.querySelectorAll(".card44"),
+            buttons44 = document.querySelectorAll(".cardswrapper44 button"),
+            prevBtn44 = document.querySelector(".prev44"),
+            nextBtn44 = document.querySelector(".next44");
+
+        cards44.addEventListener("wheel", (event) => {
+            if (event.deltaY > 0) {
+                event.currentTarget.scrollLeft += event.currentTarget.clientWidth;
+
+            } else {
+                event.currentTarget.scrollLeft -= event.currentTarget.clientWidth;
+            }
+        });
+        buttons44.forEach((button) => {
+            button.addEventListener("click", (event) => {
+                if (event.currentTarget.classList.contains("prev44")) {
+                    cards44.scrollLeft -= cards44.clientWidth;
+                } else {
+                    cards44.scrollLeft += cards44.clientWidth;
+                }
+            });
+        });
+        const btnsFunction44 = () => {
+            if (cards44.scrollLeft === 0) {
+                // if(cards.scrollLeft === cards.scrollWidth){
+                prevBtn44.style.display = "none";
+            } else {
+                prevBtn44.style.display = "unset";
+
+            }
+
+            if (cards44.scrollLeft + cards44.clientWidth >= cards44.scrollWidth - 1) {
+                nextBtn44.style.display = "none";
+            } else {
+                nextBtn44.style.display = "unset";
+            }
+
+            console.log(cards44.scrollLeft, cards44.clientWidth, cards44.scrollWidth);
+        };
+
+        cards44.addEventListener("scroll", btnsFunction44);
+        window.addEventListener("load", btnsFunction44);
+    </script>
+</body>
+
+</html>
