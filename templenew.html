@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .nav {
+        width: 100%;
+        height: 150px;
+        background-color: purple;
+        padding-top: 20px;
+    }
+
+    .nav1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    ul {
+        display: flex;
+        padding-top: 15px;
+    }
+
+    ul li {
+        list-style: none;
+        color: white;
+        margin-right: 50px;
+    }
+
+    .mode {
+        color: white;
+        font-size: 17px;
+        padding-top: 15px;
+    }
+
+    .signlog {
+        display: flex;
+    }
+
+    .sign {
+        width: 75px;
+        height: 40px;
+        background-color: orange;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        border: 1px solid white;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+    .log {
+        width: 75px;
+        height: 40px;
+        background-color: blue;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        border: 1px solid white;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+    .nav2 {
+        padding-left: 90px;
+        padding-top: 10px;
+    }
+
+    .all {
+        width: 90px;
+        height: 40px;
+        background-color: transparent;
+        color: white;
+        border: none;
+        margin-right: 15px;
+    }
+
+    .allicon {
+        margin-right: 10px;
+    }
+
+    .all a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .all:hover {
+        background-color: rgb(159, 49, 159);
+        border-radius: 30px;
+        border: none;
+        display: inline-block;
+    }
+
+    .temple {
+        border: none;
+        background: transparent;
+        color: white;
+        margin-right: 15px;
+        width: 90px;
+        height: 40px;
+        background-color: rgb(108, 29, 108);
+        margin-right: 15px;
+        border: 1px solid white;
+        border-radius: 30px;
+        color: white;
+        padding-right: 1px;
+
+    }
+
+    .tempicon {
+        margin-right: 10px;
+    }
+
+    .temple a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .masjid {
+        border: none;
+        background: transparent;
+        color: white;
+        margin-right: 15px;
+        width: 90px;
+        height: 40px;
+    }
+
+    .masjidicon {
+        margin-right: 10px;
+    }
+
+    .masjid:hover {
+        background-color: rgb(159, 49, 159);
+        border-radius: 30px;
+        border: none;
+        display: inline-block;
+    }
+
+    .masjid a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .church {
+        border: none;
+        background: transparent;
+        color: white;
+        margin-right: 15px;
+        width: 90px;
+        height: 40px;
+    }
+
+    .church a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .churchicon {
+        margin-right: 10px;
+    }
+
+    .church:hover {
+        border-radius: 30px;
+        border: none;
+        display: inline-block;
+        background-color: rgb(159, 49, 159);
+    }
+
+    .zoo {
+        border: none;
+        background: transparent;
+        color: white;
+        width: 90px;
+        height: 40px;
+    }
+
+    .zoo a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .zooicon {
+        margin-right: 10px;
+    }
+
+    .zoo:hover {
+        border-radius: 30px;
+        border: none;
+        display: inline-block;
+        background-color: rgb(159, 49, 159);
+    }
+
+
+
+    /* Search bar */
+    /* .selectsearch1 {
+        width: 900px;
+        height: 50px;
+        background-color: orange;
+        border-radius: 5px;
+        margin-left: 187px;
+    }
+    .srch{
+        width: 600px;
+        height: 44px;
+        margin-top: 3px;
+        margin-left: 130px;
+        border-radius: 5px;
+        border: none;
+        padding-left: 40px;
+    }
+    .srchicon{
+    position: absolute;
+    top: 30%;
+    left: 100px;
+    transform: translateY(50%);
+    padding-left: 100px;
+} */
+.searchbar{
+    width: 900px; /*800*/
+    height: 52px;
+    background-color: orange;
+    margin-left: 185px; /*245*/
+    margin-top: 0;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    overflow-y: hidden;    
+}
+.srch{
+    width: 620px; /*671*/
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-left: 170px;
+    margin-right: 1px;
+    padding-left: 60px;
+    font-size: 15px;
+}
+.srchbtn{
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    margin: 2px 2px 2px 0;
+    background-color: #1e5ebd;
+    color: white;
+}
+.srchicon{
+    position: absolute;
+    top: 21%;
+    left: 190px;
+    transform: translateY(50%);
+    overflow: hidden;
+}
+    
+</style>
+
+<body>
+    <div class="nav">
+        <div class="nav1">
+            <div class="logo"><img src="/img/logo.png" alt=""></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us</li>
+                <li>Help</li>
+            </ul>
+            <div class="mode"><i class="fa-solid fa-circle-half-stroke"></i></div>
+            <div class="signlog">
+                <button class="sign">Sign in</button>
+                <button class="log">Register</button>
+            </div>
+        </div>
+        <div class="nav2">
+            <button class="all"><a href="index.html"><i class="fa-solid fa-check-double allicon"></i>All</a></button>
+            <button class="temple"><a href="#"><i class="fa-solid fa-gopuram tempicon"></i>Temple</a></button>
+            <button class="masjid"><a href="#"><i class="fa-solid fa-mosque masjidicon"></i>Masjid</a></button>
+            <button class="church"><a href="#"><i class="fa-solid fa-church churchicon"></i>Church</a></button>
+            <button class="zoo"><a href="#"><i class="fa-solid fa-shield-dog zooicon"></i>Zoo</a></button>
+        </div>
+    </div>
+    <div class="searchbar">
+        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+        <input type="search" class="srch" placeholder="Search Temples, majid, church, park etc..">
+        <button class="srchbtn">Search</button>
+      </div>
+</body>
+
+</html>

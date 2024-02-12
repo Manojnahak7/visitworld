@@ -4,227 +4,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visitworld.com</title>
-  <link rel="icon" type="img/png" href="/img/travelicon.png">
-  <link rel="stylesheet" href="design.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
-
-  <!-- <script src="script.js"></script> -->
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!--Nav Bar-->
-
-  <nav id="navbar">
-    <!-- <div class="nav"> -->
-    <img src="/img/logo.png" alt="logo">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-    <div class="containerlang">
-      <select name="select" id="selectlang" onchange="location = this.value;">
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="nav1">
+      <div class="logo"><img src="/img/logo.png" alt=""></div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+      <i class="fa-solid fa-circle-half-stroke mode"></i>
+      <select name="select" id="select1">
         <option value="English">English</option>
-        <option value="English">हिंदी</option>
-        <option value="/language/odia.html">ଓଡିଆ</option>
-        <option value="English">বাঙ্গালী</option>
-        <option value="English">中國</option>
-        <option value="English">россия</option>
         <option value="English">English</option>
         <option value="English">English</option>
         <option value="English">English</option>
       </select>
+      <div class="signlog">
+        <button id="sign">Sign in</button>
+        <button id="log">Register</button>
+      </div>
     </div>
-
+    <div class="nav2">
+      <button class="all"><a href="index.html"><i class="fa-solid fa-check-double allicon"></i>All</a></button>
+      <button class="temple"><a href="templenew.html"><i class="fa-solid fa-gopuram tempicon"></i>Temple</a></button>
+      <button class="masjid"><a href="#"><i class="fa-solid fa-mosque masjidicon"></i>Masjid</a></button>
+      <button class="church"><a href="#"><i class="fa-solid fa-church churchicon"></i>Church</a></button>
+      <button class="zoo"><a href="#"><i class="fa-solid fa-shield-dog zooicon"></i>Zoo</a></button>
     </div>
-
-    <div class="dark" id="mode"><i class="fa-solid fa-circle-half-stroke"></i></div>
-
-    <div class="signlog">
-      <button id="signin">Sign Up</button>
-      <button id="login">Login</button>
+    <div class="text">
+      <h1 class="head">Find your favourite place</h1>
+      <p class="para">Search temples, masjid, church, and much more...</p>
     </div>
-  </nav>
-  <div class="nav2">
-    <button class="btn1"><i class="all fa-solid fa-check-double"></i>All</button>
-    <button class="btn2"><a href="/temple.html"><i class="temple first fa-solid fa-gopuram"></i>Temple</a></button>
-    <button class="btn3"><i class="masjid fa-solid fa-mosque"></i>Masjid</button>
-    <button class="btn4"><i class="church fa-solid fa-church"></i>Church</button>
-    <button class="btn5"><i class="zoo fa-solid fa-shield-dog"></i>Zoo</button>
-
+    <div class="nav3">
+      <button><i class="fa-solid fa-chart-line trend"></i>Trending</button>
+      <button><i class="fa-solid fa-volume-high recomend"></i>Recomended by Visitworld</button>
+      <button><i class="fa-solid fa-bed book"></i>Booking</button>
+    </div>
+    <div class="line"></div>
+  </div>
+  <div class="searchbar">
+    <i class="fa-solid fa-magnifying-glass srchicon"></i>
+    <input type="search" class="srch" placeholder="Search Temples, majid, church, park etc..">
+    <button class="srchbtn">Search</button>
   </div>
 
-  <div class="find">
-    <h1>Find your favourite place</h1>
-    <h3>Search temples, masjid, church and much more...</h3>
-  </div>
-
-
-
-  <div class="search">
-    <input type="text" class="inp" placeholder="Search temples, masjid, church, park etc.">
-    <div class="icn"><i class="fa-solid fa-magnifying-glass"></i></div>
-    <div class="click">
-      <button id="searchbtn">Search</button>
-    </div>
-  </div>
-
-  <div class="secondbtn">
-    <button class="btn6"><i class="trending fa-brands fa-weibo"></i>Trending</button>
-    <button class="btn7"><i class="recomend fa-solid fa-volume-high"></i>Recomended by Visitworld</button>
-    <button class="btn8"><i class="booking fa-solid fa-bed"></i>Booking</button>
-
-  </div>
-
-  <!--Discover Odisha-->
+  <!--- Discover Odisha -->
   <div class="discover">
-    <img src="/img/jirangdiscoverodisha.jpeg" alt="">
-    <h4>Discover Odisha</h4>
-    <p>find out the best places of odisha</p>
-    <div class="explore">Explore</div>
-  </div>
-
-  <!---Container trending places-->
-
-  <div class="trend" id="trend1">
-    <h3 id="tp">Trending Places</h3>
-    <p id="most">Most popular choices for travelers from World</p>
-  </div>
-
-  <div class="trends">
-    <div class="img1">
-      <img src="/img/jagannath.jpg" alt="jagannath temple">
-      <div class="top-left">INDIA<img src="/img/India-flag-a4.jpg" alt=""></div>
+    <img src="/img/jirangdiscoverodisha.jpeg" alt="jiranga">
+    <div class="headpara">
+      <h5>Discover Odisha</h5>
+      <p>find out the best places of odisha</p>
     </div>
-    <div class="img2">
-      <img src="/img/dubaiwhell.jpg" alt="dubai">
-      <div class="top-left">UAE<img src="/img/uaeflag.jpg" alt="uaeflag"></div>
-    </div>
+    <button>Explore</button>
   </div>
 
+  <!---- Trending places -->
+  <div class="trend1">
+    <h3>Trending Places</h3>
+    <p>Most popular choices for travelers from World</p>
+  </div>
   <div class="row1">
-    <div class="column1">
-      <img src="/img/towerbridgelondon.jpg" alt="Snow">
-      <div class="top1">UK <img src="/img/ukflag.jpg" alt="ukflag"></div>
+    <div class="img1"><img src="/img/jagannathtemplenew.jpg" alt="Snow">
+      <div class="top-left">INDIA<div class="flagindia"><img src="/img/India-flag-a4.jpg" alt=""></div>
+      </div>
     </div>
-    <div class="column2">
-      <img src="/img/ayodhya ram.jpg" alt="Forest">
-      <div class="top2">INDIA<img src="/img/India-flag-a4.jpg" alt=""></div>
+    <div class="img2"><img src="/img/dubaiwhell.jpg" alt="">
+      <div class="top-right">UAE
+        <div class="flaguae"><img src="/img/uaeflag.jpg" alt=""></div>
+      </div>
     </div>
-    <div class="column3">
-      <img src="/img/shakarparianhillsPakistan.jpg" alt="Mountains">
-      <div class="top3">PAKISTAN <img src="/img/pakistanflag.png" alt="pakflag"></div>
+  </div>
+  <div class="row2">
+    <div class="img4"><img src="/img/towerbridgelondon.jpg" alt="">
+      <div class="top-left2">UK<div class="flaglondon"><img src="/img/ukflag.jpg" alt=""></div>
+      </div>
+    </div>
+    <div class="img5"><img src="/img/temple/ayodhyaramtemplenew.jpg" alt="">
+      <div class="top-left3">INDIA<div class="flagindia2"><img src="/img/India-flag-a4.jpg" alt=""></div>
+      </div>
+    </div>
+    <div class="img6"><img src="/img/shakarparianhillsPakistan.jpg" alt="">
+      <div class="top-left4">PAKISTAN<div class="flagpak"><img src="/img/pakistanflag.png" alt=""></div>
+      </div>
     </div>
   </div>
 
-
-
-  <!----Browse by property-->
+  <!--- Browse by property type for big screen -->
 
   <div class="topplaces">
     <h3 id="browse">Browse by property type</h3>
   </div>
-
-
-  <div class="wrapperfirst" id="wrap">
-    <div class="item" id="bgch1">
-      <img src="/img/hotels.jpg" alt="" id="pic1">
-      <h5 class="tit1">Hotels</h5>
-    </div>
-    <div class="item" id="bgch2">
-      <img src="/img/Apartment.jpg" alt="" id="pic2">
-      <h5 class="tit2">Apartments</h5>
-    </div>
-    <div class="item" id="bgch3">
-      <img src="/img/Resorts.jpg" alt="" id="pic3">
-      <h5 id="tit3">Resorts</h5>
-    </div>
-    <div class="item" id="bgch4">
-      <img src="/img/Villas.jpg" alt="" id="pic4">
-      <h5 id="tit">Villas</h5>
-    </div>
-    <div class="item" id="bgch5">
-      <img src="/img/Cabins.jpg" alt="" id="pic5">
-      <h5 id="tit">Cabins</h5>
-    </div>
-    <div class="item" id="bgch6">
-      <img src="/img/Cottages.jpg" alt="" id="pic6">
-      <h5 id="tit">Cottages</h5>
-    </div>
-    <div class="item" id="bgch7">
-      <img src="/img/Glamping.jpg" alt="" id="pic7">
-      <h5 id="tit">Glamping</h5>
-    </div>
-    <div class="item" id="bgch8">
-      <img src="/img/Serviced Apartment.jpg" alt="" id="pic8">
-      <h5 id="tit">Serviced Apartments</h5>
-    </div>
-    <div class="item" id="bgch9">
-      <img src="/img/Vacation Homes.jpg" alt="" id="pic9">
-      <h5 id="tit">Vacation Homes</h5>
-    </div>
-    <div class="item" id="bgch10">
-      <img src="/img/Guest House.jpg" alt="" id="pic10">
-      <h5 id="tit">Guest Houses</h5>
-    </div>
-    <div class="item" id="bgch11">
-      <img src="/img/Hostels.jpg" alt="" id="pic11">
-      <h5 id="tit">Hostels</h5>
-    </div>
-    <div class="item" id="bgch12">
-      <img src="/img/Motels.jpg" alt="" id="pic12">
-      <h5 id="tit">Motels</h5>
-    </div>
-    <div class="item" id="bgch13">
-      <img src="/img/B&Bs.jpg" alt="" id="pic13">
-      <h5 id="tit">B&Bs</h5>
-    </div>
-    <div class="item" id="bgch14">
-      <img src="/img/Ryokans.jpg" alt="" id="pic14">
-      <h5 id="tit">Ryokans</h5>
-    </div>
-    <div class="item" id="bgch15">
-      <img src="/img/Riads.jpg" alt="" id="pic15">
-      <h5 id="tit">Riads</h5>
-    </div>
-    <div class="item" id="bgch16">
-      <img src="/img/Resort Village.jpg" alt="" id="pic16">
-      <h5 id="tit">Resort Villages</h5>
-    </div>
-    <div class="item" id="bgch17">
-      <img src="/img/Home stays.jpg" alt="" id="pic17">
-      <h5 id="tit">Home stays</h5>
-    </div>
-    <div class="item" id="bgch18">
-      <img src="/img/Campgrounds.jpg" alt="" id="pic18">
-      <h5 id="tit">Campgrounds</h5>
-    </div>
-    <div class="item" id="bgch19">
-      <img src="/img/country houses.jpg" alt="" id="pic19">
-      <h5 id="tit">Country Houses</h5>
-    </div>
-    <div class="item" id="bgch20">
-      <img src="/img/Boats.jpg" alt="" id="pic20">
-      <h5 id="tit">Boats</h5>
-    </div>
-    <div class="item" id="bgch21">
-      <img src="/img/Self catering accomodation.jpg" alt="" id="pic21">
-      <h5 id="tit">Self-catering Accomodations</h5>
-    </div>
-    <div class="item" id="bgch22">
-      <img src="/img/Tiny houses.png" alt="" id="pic22">
-      <h5 id="tit">Tiny houses</h5>
-    </div>
-  </div>
-
-
-  <!--- Big screen Browse by property type -->
 
   <div class="wrapper">
     <div class="cardswrapper">
@@ -367,9 +247,6 @@
     </div>
   </div>
 
-
-
-
   <!---Explore your favourite places-->
 
   <div class="explore">
@@ -467,62 +344,6 @@
     </div>
   </div>
 
-  <!-- For small devices -->
-  <div class="wrappernew1" id="wrapnew">
-    <div class="item1" id="">
-      <img src="/img/jagannathtemplenew.jpg" alt="">
-      <h5>Temple</h5>
-    </div>
-    <div class="item1">
-      <img src="/img/masjidnew.jpg" alt="">
-      <h5>Masjid</h5>
-    </div>
-    <div class="item1">
-      <img src="/img/churchnew.jpg" alt="">
-      <h5>Church</h5>
-    </div>
-    <div class="item1">
-      <img src="/img/park.jpg" alt="">
-      <h5>Park</h5>
-    </div>
-    <div class="item1">
-      <img src="/img/zoo.jpg" alt="">
-      <h5>Zoo</h5>
-    </div>
-    <div class="item1">
-      <img src="/img/mountainnew.jpg" alt="">
-      <h5>Mountain</h5>
-    </div>
-    <div class="item1">
-      <img src="/img/snowfall.jpg" alt="">
-      <h5>Snowfall</h5>
-    </div>
-    <div class="item1">
-      <img src="/img/boating point.jpg" alt="">
-      <h5>Boating Point</h5>
-    </div>
-    <div class="item1">
-      <img src="/img/oldestmonument.jpeg" alt="">
-      <h5>Monument</h5>
-    </div>
-    <div class="item1">
-      <img src="/img/malls.jpg" alt="">
-      <h5>Malls</h5>
-    </div>
-    <div class="item1">
-      <img src="/img/foottrack.jpg" alt="">
-      <h5>Foot trek</h5>
-    </div>
-    <div class="item1">
-      <img src="/img/forest.jpg" alt="">
-      <h5>Forest</h5>
-    </div>
-    <div class="item1">
-      <img src="/img/huntedplace.jpg" alt="">
-      <h5>Hunted</h5>
-    </div>
-  </div>
-
   <!-- quick trip planner-->
 
   <div class="quicks">
@@ -544,7 +365,6 @@
       <div class="icon3"><i class="fa-solid fa-person-biking"></i></div>Outdoors
     </div>
   </div>
-
 
   <!-- Quick and easy trip for big screen -->
 
@@ -629,100 +449,6 @@
     </div>
   </div>
 
-  <!--Quick trip horizontal scroll-->
-
-  <div class="wrapper4">
-    <div class="itemnew">
-      <img src="/img/tajmahal.jpg" alt="">
-      <h5>India</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/paristop.jpg" alt="">
-      <h5>Paris</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/uktop.jpg" alt="">
-      <h5>UK</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/uaetop.jpeg" alt="">
-      <h5>UAE</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Cabins.jpg" alt="">
-      <h5>Cabins</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Cottages.jpg" alt="">
-      <h5>Cottages</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Glamping.jpg" alt="">
-      <h5>Glamping</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Serviced Apartment.jpg" alt="">
-      <h5>Serviced Apartments</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Vacation Homes.jpg" alt="">
-      <h5>Vacation Homes</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Guest House.jpg" alt="">
-      <h5>Guest Houses</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Hostels.jpg" alt="">
-      <h5>Hostels</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Motels.jpg" alt="">
-      <h5>Motels</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/B&Bs.jpg" alt="">
-      <h5>B&Bs</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Ryokans.jpg" alt="">
-      <h5>Ryokans</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Riads.jpg" alt="">
-      <h5>Riads</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Resort Village.jpg" alt="">
-      <h5>Resort Villages</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Home stays.jpg" alt="">
-      <h5>Home stays</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Campgrounds.jpg" alt="">
-      <h5>Campgrounds</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/country houses.jpg" alt="">
-      <h5>Country Houses</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Boats.jpg" alt="">
-      <h5>Boats</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Self catering accomodation.jpg" alt="">
-      <h5>Self-catering Accomodations</h5>
-    </div>
-    <div class="itemnew">
-      <img src="/img/Tiny houses.png" alt="">
-      <h5>Tiny houses</h5>
-    </div>
-  </div>
-
-
   <!-- Get inspiration for your next trip -->
 
   <div class="inspire1">
@@ -785,46 +511,6 @@
     </div>
   </div>
 
-
-  <!-- for small device -->
-
-  <div class="wrapper33">
-    <div class="inspireitem1">
-      <img src="/img/droneviewlosangels.jpg" alt="">
-      <h4>5 of the best hotels in India</h4>
-      <p>Top 5 of the best hotels in India for your stay</p>
-    </div>
-    <div class="inspireitem">
-      <img src="/img/orlando.jpg" alt="">
-      <div class="orlando">
-        <h6>The 6 best orlando hotels for families</h6>
-        <p>Discover the best Orlando hotels for families for your vacation.</p>
-      </div>
-    </div>
-    <div class="inspireitem">
-      <img src="/img/ski towns.jpg" alt="">
-      <div class="orlando">
-        <h6>5 best ski towns around the world</h6>
-        <p>Discover a winter wonderland in these charming ski destinations.</p>
-      </div>
-    </div>
-    <div class="inspireitem">
-      <img src="/img/thanksgivinggateway.jpg" alt="">
-      <div class="orlando">
-        <h6>5 vacation homes for a thanks giving getaway</h6>
-        <p>Enjoy Thanksgiving dinner at these vacation homes.</p>
-      </div>
-    </div>
-    <div class="inspireitem">
-      <img src="/img/bangkokrooftop.jpg" alt="">
-      <div class="orlando">
-        <h6>6 incredible Bangkok rooftop bars</h6>
-        <p>Amazing city views,cocktails, and world-class cuisine.</p>
-      </div>
-    </div>
-  </div>
-
-
   <!---All places -->
 
   <div class="templemasjid">
@@ -847,452 +533,519 @@
     </div>
   </div>
 
-  <div class="wrapper55">
-    <div class="religion">
-      <img src="/img/temple/Angkor.jpg" alt="">
-      <div class="img2">
-        <h5>Cambodia<img src="/img/coutryflag/cambodia.png" alt=""></h5>
+  <div class="wrappersix">
+    <div class="cardswrapper6">
+      <button class="prev6"><i class="fa-solid fa-arrow-left"></i></button>
+      <div class="cards6">
+        <div class="card6">
+          <img src="/img/temple/Angkor.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">Cambodia<img src="/img/coutryflag/cambodiaflagnew.jpg" alt="">
+            </strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/baps swami akshardham.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">US<img src="/img/coutryflag/us.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/sri rangamranganath.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India<img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/SriLakshmiNarayaniDeviTemple2.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India<img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Chhatarpur Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India<img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/baps delhi.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Prem Mandir.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/India-flag-a4.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Besakih Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">Indonesia <img src="/img/coutryflag/indonesia-flag.png" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Statue of Equality.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/India-flag-a4.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Belur Mutt.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/India-flag-a4.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Thillai Nataraja Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/India-flag-a4.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Prambanan, Trimurti temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">Indonesia <img src="/img/coutryflag/indonesia-flag.png" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Brihadisvara Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/India-flag-a4.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Annamalaiyar Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/India-flag-a4.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Dakshineswar Kali Temple.jpeg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/India-flag-a4.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Varadharaja Perumal Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/India-flag-a4.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Rajagopalaswamy Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/India-flag-a4.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Ekambareswarar Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/India-flag-a4.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Sri Thyagaraja Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/India-flag-a4.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/vaishnava nambi.jpeg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/India-flag-a4.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/baps tonoto.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">Canada <img src="/img/coutryflag/canada.png" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Thiruvanaikaval.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/India-flag-a4.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Nellaiappar Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/India-flag-a4.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Meenakshi Sundareswarar Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Batu Caves temple complex.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">Malaysia <img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Sri Lakshmi Narasimha Swamy Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Shri Shiva Vishnu Hindu Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">Australia <img src="/img/coutryflag/australia.png" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Vaitheeswaran Temple.jpeg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Krishna Janmasthan Temple Complex.jpeg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/jagannathtemplenew.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Laxminarayan Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Shree Padmanabhaswamy Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Sri Radha Krishna-Chandra Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Shri Swaminarayan Mandir.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">Pakistan<img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
+        <div class="card6">
+          <img src="/img/temple/Pundarikakshan Perumal Temple.jpg" alt="">
+          <div class="st3">
+            <strong class="flag3">India <img src="/img/coutryflag/India.jpg" alt=""></strong>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/baps swami akshardham.jpg" alt="">
-      <div class="img2">
-        <h5>US<img src="/img/coutryflag/us.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/sri rangamranganath.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/srilaxminarayandevi.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Chhatarpur Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/baps delhi.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Prem Mandir.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Besakih Temple.jpg" alt="">
-      <div class="img2">
-        <h5>Indonesia<img src="/img/coutryflag/indonesia-flag.png" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Statue of Equality.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Belur Mutt.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Thillai Nataraja Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Prambanan, Trimurti temple.jpg" alt="">
-      <div class="img2">
-        <h5>Indonesia<img src="/img/coutryflag/indonesia-flag.png" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Brihadisvara Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Annamalaiyar Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Dakshineswar Kali Temple.jpeg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Varadharaja Perumal Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Rajagopalaswamy Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Ekambareswarar Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Sri Thyagaraja Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/vaishnava nambi.jpeg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/baps tonoto.jpg" alt="">
-      <div class="img2">
-        <h5>Canada<img src="/img/coutryflag/canada.png" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Thiruvanaikaval.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Nellaiappar Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Meenakshi Sundareswarar Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Batu Caves temple complex.jpg" alt="">
-      <div class="img2">
-        <h5>Malaysia<img src="/img/coutryflag/malaysia.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Sri Lakshmi Narasimha Swamy Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Shri Shiva Vishnu Hindu Temple.jpg" alt="">
-      <div class="img2">
-        <h5>Australia<img src="/img/coutryflag/australia.png" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Vaitheeswaran Temple.jpeg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Krishna Janmasthan Temple Complex.jpeg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/jagannathtemplenew.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Laxminarayan Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Shree Padmanabhaswamy Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Sri Radha Krishna-Chandra Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Shri Swaminarayan Mandir.jpg" alt="">
-      <div class="img2">
-        <h5>Pakistan<img src="/img/coutryflag/pakistan.jpg" alt=""></h5>
-      </div>
-    </div>
-    <div class="religion">
-      <img src="/img/temple/Pundarikakshan Perumal Temple.jpg" alt="">
-      <div class="img2">
-        <h5>India<img src="/img/coutryflag/India.jpg" alt=""></h5>
-      </div>
+      <button class="next6"><i class="fa-solid fa-arrow-right"></i></button>
     </div>
   </div>
 
-
   <!---Rating hotels -->
+
   <div class="stay">
     <h3>Stay your nearest favourite place</h3>
     <p>From castles and villas to boats and igloos, we have it all</p>
   </div>
 
-  <div class="star">
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/chandukapalace.jpg" alt="">
+  <div class="wrapperseven">
+    <div class="cardswrapper7">
+      <button class="prev7"><i class="fa-solid fa-arrow-left"></i></button>
+      <div class="cards7">
+        <div class="card7">
+          <img src="/img/hotels/chandukapalace.jpg" alt="">
+          <div class="st1">
+            <strong>Chanduka palace</strong>
+          </div>
+          <div class="para1">
+            <p>1 km to jagannath temple puri,India</p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 1,100</strong>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="/img/hotels/Hotel Aiwan E Shahi.jpg" alt="">
+          <div class="st2">
+            <strong>Aiwan E Shahi</strong>
+          </div>
+          <div class="para2">
+            <p>1 km to Jama masjid, India</p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 3,000</strong>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="/img/hotels/Nest Guest House.jpg" alt="">
+          <div class="st3">
+            <strong>Nest Guest House</strong>
+          </div>
+          <div class="para3">
+            <p>1.6 km to lingaraj temple,India</p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 900</strong>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="/img/hotels/Hotel Saniya palace Inn.jpg" alt="">
+          <div class="st4">
+            <strong>Hotel Saniya palace Inn</strong>
+          </div>
+          <div class="para4">
+            <p>210 m to tajmahal agra,India</p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 811</strong>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="/img/hotels/ramada-downtown-dubai.jpg" alt="">
+          <div class="st5">
+            <strong>ramada by wyndham downtown</strong>
+          </div>
+          <div class="para5">
+            <p>1.3 km to Burj Khalifa, dubai </p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 19,000</strong>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="/img/hotels/Park Plaza Westminster Bridge London.jpg" alt="">
+          <div class="st6">
+            <strong>Park Plaza Westminster Bridge</strong>
+          </div>
+          <div class="para6">
+            <p>0.4 m to London eye, UK</p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 17,000</strong>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="/img/hotels/Hotel and the City america.jpg" alt="">
+          <div class="st7">
+            <strong>Hotel and the City</strong>
+          </div>
+          <div class="para7">
+            <p>3.2 km to New york city,America</p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 16,168</strong>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="/img/hotels/hub by Premier Inn London Westminster Abbey hotel.jpg" alt="">
+          <div class="st8">
+            <strong>hub by Premier Inn</strong>
+          </div>
+          <div class="para8">
+            <p>0.3 m to Big ben, UK</p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 13,200</strong>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="/img/hotels/INFINITY8 BALI.jpg" alt="">
+          <div class="st9">
+            <strong>INFINITY8 BALI</strong>
+          </div>
+          <div class="para9">
+            <p>50 km to Bali,Indonesia</p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 3,600</strong>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="/img/hotels/Holiday Inn Express Toronto Downtown.jpg" alt="">
+          <div class="st10">
+            <strong>Holiday Inn Express</strong>
+          </div>
+          <div class="para10">
+            <p>1.1 km to Toronto,Canada</p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 11,832</strong>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="/img/hotels/Swiss International Residences Lahore.jpg" alt="">
+          <div class="st11">
+            <strong>Swiss International Residences</strong>
+          </div>
+          <div class="para11">
+            <p>6.7 km to lahore,Pakistan</p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 2,850</strong>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="/img/hotels/The Victoria Falls Hotel.jpg" alt="">
+          <div class="st12">
+            <strong>The Victoria Falls Hotel</strong>
+          </div>
+          <div class="para12">
+            <p>2.5 km to victoria falls,Zimbabwe</p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 40,832</strong>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="/img/hotels/Beijing Mutianyu Great Wall Wangshanyuan Farm Stay.jpg" alt="">
+          <div class="st13">
+            <strong>Beijing Mutianyu Great Wall</strong>
+          </div>
+          <div class="para13">
+            <p>100 km to the grat wall of china,China</p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 7,288</strong>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="/img/hotels/Hotel Khreschatyk Kyiv.jpg" alt="">
+          <div class="st14">
+            <strong>Hotel Khreschatyk Kyiv</strong>
+          </div>
+          <div class="para14">
+            <p>850 m to kyiv,Ukraine</p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 4,514</strong>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="/img/hotels/Radisson Lazurnaya Hotel, Sochi.jpg" alt="">
+          <div class="st15">
+            <strong>Radisson Lazurnaya</strong>
+          </div>
+          <div class="para15">
+            <p>9.1 km to sochi,Russia</p>
+          </div>
+          <div class="price">
+            <p>Starting from </p><strong class="symbol"> &#8377; 1,100</strong>
+          </div>
+        </div>
+
       </div>
-      <div class="text1">Chanduka palace</div>
-      <p>1 km to jagannath temple puri,India</p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>1,100</h5>
-      </div>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/Hotel Aiwan E Shahi.jpg" alt="">
-      </div>
-      <div class="text1">Aiwan E Shahi</div>
-      <p>1 km to Jama masjid, India</p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>3,000</h5>
-      </div>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/Nest Guest House.jpg" alt="">
-      </div>
-      <div class="text1">Nest Guest House</div>
-      <p>1.6 km to lingaraj temple,India</p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>900</h5>
-      </div>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/Hotel Saniya palace Inn.jpg" alt="">
-      </div>
-      <div class="text1">Hotel Saniya palace Inn</div>
-      <p>210 m to tajmahal agra,India</p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>811</h5>
-      </div>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/ramada-downtown-dubai.jpg" alt="">
-      </div>
-      <div class="text1">ramada by wyndham downtown</div>
-      <p>1.3 km to Burj Khalifa, dubai </p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>19,000</h5>
-      </div>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/Park Plaza Westminster Bridge London.jpg" alt="">
-      </div>
-      <div class="text1">Park Plaza Westminster Bridge</div>
-      <p>0.4 m to London eye, UK</p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>17,000</h5>
-      </div>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/Hotel and the City america.jpg" alt="">
-      </div>
-      <div class="text1">Hotel and the City</div>
-      <p>3.2 km to New york city,America</p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>16,168</h5>
-      </div>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/hub by Premier Inn London Westminster Abbey hotel.jpg" alt="">
-      </div>
-      <div class="text1">hub by Premier Inn</div>
-      <p>0.3 m to Big ben, UK</p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>13,200</h5>
-      </div>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/INFINITY8 BALI.jpg" alt="">
-      </div>
-      <div class="text1">INFINITY8 BALI</div>
-      <p>50 km to Bali,Indonesia</p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>3,600</h5>
-      </div>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/Holiday Inn Express Toronto Downtown.jpg" alt="">
-      </div>
-      <div class="text1">Holiday Inn Express</div>
-      <p>1.1 km to Toronto,Canada</p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>11,832</h5>
-      </div>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/Swiss International Residences Lahore.jpg" alt="">
-      </div>
-      <div class="text1">Swiss International Residences</div>
-      <p>6.7 km to lahore,Pakistan</p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>2,850</h5>
-      </div>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/The Victoria Falls Hotel.jpg" alt="">
-      </div>
-      <div class="text1">The Victoria Falls Hotel</div>
-      <p>2.5 km to victoria falls,Zimbabwe</p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>40,832</h5>
-      </div>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/Beijing Mutianyu Great Wall Wangshanyuan Farm Stay.jpg" alt="">
-      </div>
-      <div class="text1">Beijing Mutianyu Great Wall</div>
-      <p>100 km to the grat wall of china,China</p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>7,288</h5>
-      </div>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/Hotel Khreschatyk Kyiv.jpg" alt="">
-      </div>
-      <div class="text1">Hotel Khreschatyk Kyiv</div>
-      <p>850 m to kyiv,Ukraine</p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>4,514</h5>
-      </div>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="/img/hotels/Radisson Lazurnaya Hotel, Sochi.jpg" alt="">
-      </div>
-      <div class="text1">Radisson Lazurnaya</div>
-      <p>9.1 km to sochi,Russia</p>
-      <div class="para2">
-        <p>Starting from</p>
-        <div class="money"><i class="fa-solid fa-indian-rupee-sign"></i></div>
-        <h5>9,426</h5>
-      </div>
+      <button class="next7"><i class="fa-solid fa-arrow-right"></i></button>
     </div>
   </div>
 
+  <!--- Visit temples -->
 
-  <!--visit your favourite place-->
-
-  <div class="border">
-    <div class="round1"></div>
+  <div class="visit">
+    <div class="dot1"></div>
+    <div class="dot2"></div>
+    <div class="dot3"></div>
+    <div class="dot4"></div>
     <img src="/img/visitpng1 (1).png" alt="">
-    <div class="txt">
-    </div>
-    <div class="text1">
+    <div class="dot5"></div>
+    <div class="dot6"></div>
+    <div class="bigdot">
       <h3>Find temples</h3>
+      <h4>for your next trip</h4>
+      <button class="visitbtn"><a href="#">Visit temples</a></button>
     </div>
-    <div class="text2">for your next trip</div>
-    <button class="btn2">Visit temples</button>
     <div class="imgair"><img src="/img/orangeair.png" alt=""></div>
     <div class="imgcar"><img src="/img/carnew.png" alt=""></div>
-    <div class="round2"></div>
-    <div class="round3"></div>
-    <div class="round4"></div>
-    <div class="round5"></div>
-    <div class="round6"></div>
   </div>
 
-
-  <!--Footer -->
+  <!--- Footer -->
 
   <div class="footer">
-    <div class="para">
-      <p>Copyright</p>
+    <div class="column1">
+      <h3>About Visitworld</h3>
+      <p>Here you can find worlds most popular places, temples, masijds, church and much more. With booking hotels and
+        buses, flights, trains and more.</p>
+      <div class="visitimg"><img src="/img/travelworldvisitnew.png" alt=""></div>
+      <div class="copyright">
+        <p>Copyright &#169; Visitworld.com &#8482;. All rights reserved.</p>
+      </div>
     </div>
-    <div class="para2"><i class="fa-regular fa-copyright"></i></div>
-    <div class="para3">
-      <p>2024 Visitworld.com . All rights reserved.</p>
+
+    <div class="column2">
+      <div class="contactus">
+        <h3>Contact us</h3>
+        <div class="tarun">
+          <h6>Tarun : +91 8249390690</h6>
+          <div class="icon1">
+            <a
+              href="https://www.linkedin.com/in/tarun-kumar-behera-228b3b242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button
+                class="linkedin1"><i class="fa-brands fa-linkedin-in"></i></button></a>
+            <a href="https://www.instagram.com/_im_tarun_7?igsh=dTlsMDJrOTJwaWpj"><button class="insta1"><i
+                  class="fa-brands fa-instagram"></i></button></a>
+            <a href="https://www.facebook.com/profile.php?id=100079983060758&mibextid=ZbWKwL"> <button
+                class="facebook1"><i class="fa-brands fa-facebook-f"></i></button></a>
+          </div>
+        </div>
+        <div class="manoj">
+          <h6>Manoj : +91 6371804624</h6>
+          <div class="icon2">
+            <a
+              href="https://www.linkedin.com/in/manoj-nahak-0721b2192?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button
+                class="linkedin2"><i class="fa-brands fa-linkedin-in"></i></button></a>
+            <a href="https://www.instagram.com/manojnahakofficial?igsh=cXFkMG55MWpjMmYz"><button class="insta2"><i
+                  class="fa-brands fa-instagram"></i></button></a>
+            <a href="https://www.facebook.com/manoj.nahak.5891004?mibextid=ZbWKwL"><button class="facebook2"><i
+                  class="fa-brands fa-facebook-f"></i></button></a>
+          </div>
+        </div>
+        <div class="vivek">
+          <h6>Vivekananda : +91 9348957674</h6>
+          <div class="icon3">
+            <a
+              href="https://www.linkedin.com/in/vivekananda-panda-9b4b33203?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button
+                class="linkedin3"><i class="fa-brands fa-linkedin-in"></i></button></a>
+            <button class="insta3"><i class="fa-brands fa-instagram"></i></button>
+            <button class="facebook3"><i class="fa-brands fa-facebook-f"></i></button>
+          </div>
+        </div>
+
+      </div>
     </div>
-    <div class="follow">
-      <h4>Follow us on :</h4>
+
+    <div class="column3">
+      <h3>Popular Places</h3>
+      <div class="imgrow1">
+        <img src="/img/country/londonbridge.jpg" alt="">
+        <img src="/img/country/kedarnath.jpg" alt="">
+        <img src="/img/country/southafrica.jpg" alt="">
+      </div>
+      <div class="imgrow2">
+        <img src="/img/country/tajmahal.jpg" alt="">
+        <img src="/img/country/malaysia.jpg" alt="">
+        <img src="/img/country/pakistan.jpg" alt="">
+      </div>
+      <div class="imgrow3">
+        <img src="/img/country/southafrica.jpg" alt="">
+        <img src="/img/country/church.jpg" alt="">
+        <img src="/img/country/dubai.jpg" alt="">
+      </div>
+
     </div>
-    <div class="linkedin"><i class="fa-brands fa-linkedin"></i></div>
-    <div class="git"><i class="fa-brands fa-square-github"></i></div>
   </div>
 
-  <script src="script.js"></script>
 
-
+  <script src="/script.js"></script>
 </body>
 
 </html>
